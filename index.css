@@ -1,0 +1,73 @@
+body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-025-eye-01_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a00d6c0f4d514aeb5fe93b069730c3);}
+
+/*Link on top*/
+.header-link{background:#45190c8c; height:5em; position:fixed; bottom:22.7em; top:0; left:0; right:0;}
+.font-link a{color:rgb(255, 212, 176); font-size:20px; font-family:'Montserrat',sans-serif; text-decoration:none; margin-left:2em; margin-right:2em; position:relative; left:70em; top:-1.3em;}
+.mouse a:hover{color:#D2531E;}
+
+/*Japan's Magic*/
+.header-text{color:white; font-size:17px; font-family:'Fondamento', cursive; text-shadow:rgb(70, 37, 29) 0.15em 0.1em 0.12em; position:relative; top:12%;}
+.header-back{background-color:rgb(192, 0, 26); width:60px; height:60px; border-radius:50%; position:relative; left:4em; top:0.5em; text-align:center;}
+
+/*Background Img*/
+.header-img{height:80vh; width:100%; background:center 30% /cover no-repeat;}
+#image{background-image:url(https://images.unsplash.com/photo-1576863514292-542ef379c13b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1964&q=80);}
+
+/*Everything you need to know*/
+.every{color:rgb(255, 212, 176); font-family:'Quicksand', sans-serif; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:5em; position:relative; top:2em; left:16em; width:8em;}
+
+/*Best time to go*/
+.img{background:url(https://images.unsplash.com/photo-1549825253-e4af4bff6a8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80); width:40em; height:40em; border-radius:50%; margin-left:auto; margin-right: auto; background-position:center left; border: double 0.5em rgba(255, 94, 0, 0.548);}
+.img:hover .filter{background-color:rgba(0, 0, 0, 0.493); width:100%; height:100%; border-radius:50%;}
+
+.block{display:table-cell; float:left; position:relative; width:100%;}
+.font-img{color:rgb(255, 212, 176); font-family: 'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4.5em; text-decoration:none;}
+.p{position:relative; top:3.5em; width:100%; text-align:center; display:inline-block;}
+
+/*Fish Background*/
+.img-fish{background:url(https://images.unsplash.com/photo-1504474298956-b1812fe43d92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80://as1.ftcdn.net/v2/jpg/04/34/90/38/1000_F_434903829_rRZdXOfo4kEV30Pm67JNFFQsWMTY5hMm.jpg) bottom/ cover no-repeat fixed; width:100%; height:40em; display:table-cell; float:left;}
+
+/*Place, Restaurants and Night Life links*/
+.img-place{background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80); background-position:center; width:35em; top:5em;}
+.img-place:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%;}
+
+.img-food{background-image:url(https://images.unsplash.com/photo-1535007813616-79dc02ba4021?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80); background-position:center; width:35em; bottom:25em; left:40em;}
+.img-food:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%;}
+
+.img-night{background-image:url(https://images.unsplash.com/photo-1514362453360-8f94243c9996?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1965&q=80); background-position:bottom; width:35em; bottom:55em; left:80em;}
+.img-night:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%;} 
+
+.p0{background-size:cover; position:relative; height:30em; margin-left:2em; margin-right:2em;}
+.p1{position:relative; top:2.5em; width:100%; text-align:center; display:inline-block;}
+
+/*Culture*/
+.img-cuture{background-image:url(https://images.unsplash.com/photo-1530661858370-9b1f9db608da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80); background-size:cover; background-position:center; width:60em; height:40em; border-radius:50%; margin-left:auto; margin-right:auto; border: double 0.5em rgba(255, 94, 0, 0.548);}
+.img-cuture:hover .filter0{background-color:rgba(0, 0, 0, 0.493); width:100%; height:100%; border-radius:50%;}
+
+/*Who are us?*/
+.img-who{background-image:url(https://images.unsplash.com/photo-1614651857407-9b22acceb43a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); background-size:cover; background-position:center; width:100%; height:40em;}
+.font-img0{color:rgb(255, 212, 176); font-family: 'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4em; text-align:center;}
+.p2{position:relative; margin-right:auto; margin-left:auto; left:7em; top:2em;}
+.img-who:hover .filter1{background-color:rgba(0, 0, 0, 0.493); width:100%; height:100%;}
+.filter2{font-size:0.4em; font-family:'Quicksand', sans-serif; position:relative; margin-right:auto; margin-left:auto; top:0em; width:30em;}
+#show{display:none;}
+#pass:hover #show{display:block;}
+
+/*Contact*/
+.style-all{display:inline-block;}
+.contact{position:relative; width:100%; text-align:center; top:10em;}
+.font-contact{color:rgb(255, 212, 176); font-family: 'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4.5em;}
+.hello{font-family:'Mitr', sans-serif; color:rgb(255, 212, 176);}
+
+.msg{position:relative; left:85em; bottom:6em;}
+.style{font-size:1.2em; font-family:'Mitr', sans-serif; color:rgb(43, 26, 21); background-color: rgba(255, 212, 176, 0.253); border-style:none; display:block; width:20em; border: double 0.3em rgba(255, 94, 0, 0.329);}
+.style-submit{font-size:1.5em; font-family:'Mitr', sans-serif; color:rgb(43, 26, 21); background-color:rgba(255, 212, 176, 0.404); border-style:none; border-radius: 0px 10px; position:relative; right:37.5em; top:1em;}
+.style-fa{font-size:4em; position:relative; bottom:6em; right:8em; color:rgb(255, 94, 0, 0.521);}
+.style-tw{font-size:4em; position:relative; bottom:8em; right:9em; color:rgb(255, 94, 0, 0.521);}
+.style-ins{font-size:4em; position:relative; bottom:10em; right:10em; color:rgb(255, 94, 0, 0.521);}
+.style-fa:hover{color:rgba(255, 94, 0);}
+.style-tw:hover{color:rgba(255, 94, 0);}
+.style-ins:hover{color:rgba(255, 94, 0);}
+.info{font-family:'Mitr', sans-serif; color:rgb(255, 212, 176); text-decoration:none;}
+
+
