@@ -1,17 +1,17 @@
 # Japan-s-Magic
 USER STORIES
 .Before travel
--The user must immediately understand that the purpose of the site is to inform about the best options for restaurants, tourist attractions and time of year for him to spend some time.
--The user is sure that all places and options are among the categories we have placed on the site.
--The user should feel excited and supported, making sure the user's made the best choices out of all the options.
--The user can know exactly where to go and how to get there.
+- The user must immediately understand that the purpose of the site is to inform about the best options for restaurants, tourist attractions and time of year for him to spend some time.
+- The user is sure that all places and options are among the categories we have placed on the site.
+- The user should feel excited and supported, making sure the user's made the best choices out of all the options.
+- The user can know exactly where to go and how to get there.
 
 DESIGN
 .Colour Scheme
--I choosed a type of brow, light yellow and dark tones, transmitting a feeling of comfort and strong contrast to the eyes.
+- I choosed a type of brow, light yellow and dark tones, transmitting a feeling of comfort and strong contrast to the eyes.
 
 .Typography
--I used a mixed of fonts like Montserrat, Fondamento and Quicksand, all these are Fonts Family to make sure that the website will look how I want it.
+- I used a mixed of fonts like Montserrat, Fondamento and Quicksand, all these are Fonts Family to make sure that the website will look how I want it.
 
 .Imagery
 - The images is showing parts of Japan that stay in your mind after you travel there.

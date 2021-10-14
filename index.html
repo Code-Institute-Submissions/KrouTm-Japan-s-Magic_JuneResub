@@ -8,24 +8,31 @@
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
         </style>
     </head>
     <body>
-        <header id="image" class="header-img">
-            <div class="every">Everything you need to know</div>
+        <header>
+            <div class="section">
+                <div class="font-every">Everything you need to know</div>
+                <div class="video">
+                    <video autoplay loop muted>
+                        <source src="Sakura.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <a href="#down"><i class="fas fa-angle-down style-angle"></i></a>
             <nav class="header-link mouse font-link">
                 <div class="header-back"><div class="header-text">JAPAN'S MAGIC</div></div>
                 <a href="index.html">Home</a>
                 <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a href="Contact.html">Contact</a>
             </nav>
         </header>
-
-        <section class="block">
+        
+        <section class="block" id="down">
             <div class="img">
                 <div class="filter"><a href="Best time to go.html" class="font-img p">Best time to go</a></div>
             </div>
@@ -61,24 +68,5 @@
             </div>
         </section>
 
-        <section class="style-all contact" id="contact">
-            <div class="font-contact">Contact Us</div>
-            <p class="hello">We are always willing to help and improve our conduct towards you. feel free to say hello!</p><br><br>
-            <a class="info" href="Email">JapansMagic@mysite.com</a>
-            <p class="info">Tel: (353) 0011-2233</p>
-            <p class="info">Address: Somewhere - Dublin - Ireland</p>
-
-            <div class="msg">
-                <textarea class="style" id="user" placeholder="Name:" name="username"></textarea><br>
-                <textarea class="style" id="email" placeholder="Email:" email="email"></textarea>
-                <form action="Submit.html" method="post"><br>
-                <textarea class="style" id="feedback" cols="50" rows="10" name="feedback" placeholder="Message:"></textarea>
-                <input class="style-submit" type="submit"></form>
-            </div>
-
-            <a href="facebook"><i class="fab fa-facebook style-fa"></i></a>
-            <a href="twitter"><i class="fab fa-twitter style-tw"></i></a>
-            <a href="instagram"><i class="fab fa-instagram style-ins"></i></a>
-        </section>
     </body>
 </html>

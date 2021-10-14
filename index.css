@@ -10,8 +10,11 @@ body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/
 .header-back{background-color:rgb(192, 0, 26); width:60px; height:60px; border-radius:50%; position:relative; left:4em; top:0.5em; text-align:center;}
 
 /*Background Img*/
-.header-img{height:80vh; width:100%; background:center 30% /cover no-repeat;}
-#image{background-image:url(https://images.unsplash.com/photo-1576863514292-542ef379c13b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1964&q=80);}
+.section{position:relative; height:100vh; width:100%; display:flex; justify-content:center; overflow:hidden;}
+.font-every{font-family:'Fondamento', cursive; color:rgb(255, 212, 176); font-size:7em; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
+.video{position:absolute;}
+.style-angle{color:rgb(255, 212, 176); font-size:10em; position:relative; bottom:1.5em; text-align:center; width:100%; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
+.style-angle:hover{color:rgba(255, 212, 176, 0.651);}
 
 /*Everything you need to know*/
 .every{color:rgb(255, 212, 176); font-family:'Quicksand', sans-serif; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:5em; position:relative; top:2em; left:16em; width:8em;}
@@ -62,6 +65,8 @@ body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/
 .msg{position:relative; left:85em; bottom:6em;}
 .style{font-size:1.2em; font-family:'Mitr', sans-serif; color:rgb(43, 26, 21); background-color: rgba(255, 212, 176, 0.253); border-style:none; display:block; width:20em; border: double 0.3em rgba(255, 94, 0, 0.329);}
 .style-submit{font-size:1.5em; font-family:'Mitr', sans-serif; color:rgb(43, 26, 21); background-color:rgba(255, 212, 176, 0.404); border-style:none; border-radius: 0px 10px; position:relative; right:37.5em; top:1em;}
+
+/*Social Media*/
 .style-fa{font-size:4em; position:relative; bottom:6em; right:8em; color:rgb(255, 94, 0, 0.521);}
 .style-tw{font-size:4em; position:relative; bottom:8em; right:9em; color:rgb(255, 94, 0, 0.521);}
 .style-ins{font-size:4em; position:relative; bottom:10em; right:10em; color:rgb(255, 94, 0, 0.521);}
