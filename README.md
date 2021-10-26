@@ -1,7 +1,7 @@
 # Japan-s-Magic
 USER STORIES
 .Before travel
-- The user must immediately understand that the purpose of the site is to inform about the best options for restaurants, tourist attractions and time of year for him to spend some time.
+- The user must immediately understand that the purpose of the site is to inform about the best options of restaurants, tourist attractions and time of year for him to spend some time.
 - The user is sure that all places and options are among the categories we have placed on the site.
 - The user should feel excited and supported, making sure the user's made the best choices out of all the options.
 - The user can know exactly where to go and how to get there.
@@ -15,6 +15,7 @@ DESIGN
 
 .Imagery
 - The images is showing parts of Japan that stay in your mind after you travel there.
+- The first thing that the user see is the gorgeous Sakura Tree showing one of the most beautiful things in Japan
 
 LANGUAGES USED
 -HTML5
@@ -39,4 +40,5 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 .GitHub:
 GitHub is used to store the projects code after being pushed from Git.
 
-
+.Adobe Premiere:
+For edit the video and give it the property color, harmonization to the website and adjust the image or videos for different screen types.
