@@ -84,7 +84,7 @@ html{scroll-behavior:smooth;}
 .s-phone{font-size:1.5em;}
 .s-map{font-size:1.5em;}
 .color{color:rgb(255, 204, 110); float:left; position:relative; margin-left:4em;}
-.hello2{position:absolute; left:2%; bottom:4em; font-family:'Mitr', sans-serif;}
+.hello2{position:absolute; left:2%; bottom:4%; font-family:'Mitr', sans-serif;}
 section>div>a{text-decoration:none; color:wheat;}
 section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
