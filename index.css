@@ -61,11 +61,11 @@ html{scroll-behavior:smooth;}
 .card:hover .text, .card:hover{opacity:1;}
 
 /*Contact*/
-.contact{position:relative; width:100%; top:5em; text-align:center;}
+.contact{position:absolute; width:100%; top:5em; text-align:center; display:inline-block;}
 .font-contact{color:wheat; font-family: 'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4.5em;}
 .hello{font-family:'Mitr', sans-serif; color:wheat;}
 #line{border: solid 1px rgb(255, 204, 110); width:100%;}
-.msg{position:relative; float:right; right:3%; bottom:-1em;}
+.msg{position:relative; float:right; right:3%;}
 .style{font-size:1.2em; font-family:'Mitr', sans-serif; color:wheat; background-color:rgba(245, 222, 179, 0.233); border-style:none; display:block; width:20em; border: double 0.3em rgb(255, 204, 110);}
 .style-submit{font-size:1.5em; font-family:'Mitr', sans-serif; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px; position:relative; left:5em; top:1em;}
 .info{font-family:'Mitr', sans-serif; color:wheat; text-decoration:none; position:relative; left:2em}
@@ -79,21 +79,21 @@ html{scroll-behavior:smooth;}
 .style-tw:hover{color:rgba(255, 204, 110, 0.425);}
 .style-ins:hover{color:rgba(255, 204, 110, 0.507);}
 
-/*Footer*/
-.s-email{font-size:1.5em;}
-.s-phone{font-size:1.5em;}
-.s-map{font-size:1.5em;}
-.color{color:rgb(255, 204, 110); float:left; position:relative; margin-left:4em;}
-.hello2{position:absolute; left:2%; bottom:2%; font-family:'Mitr', sans-serif;}
-section>div>a{text-decoration:none; color:wheat;}
-section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
-
 /*Subscribe*/
-.p-sign{position:relative; top:8em; margin-left:auto; margin-right:auto; left:-12%; border:rgb(255, 204, 110) solid 4px; padding:2em; width:30em;}
+.p-sign{position:relative; margin-left:auto; margin-right:auto; top:3em; left:-13%; border:rgb(255, 204, 110) solid 4px; padding:2em; width:30em; text-align:left;}
 .style-stay{font-family:'Mitr', sans-serif; color:rgb(255, 204, 110);}
 .style-updates{font-family:'Mitr', sans-serif; color:wheat;}
 .style-sign{font-size:1.2em; font-family:'Mitr', sans-serif; color:rgb(43, 26, 21); background-color: rgba(245, 222, 179, 0.233); border-style:none; border-radius:0.5em; border:3px solid rgb(255, 204, 110);}
 .sign-up{font-size:1.5em; font-family:'Mitr', sans-serif; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px;}
+
+/*Footer*/
+.hello2{position:relative; left:2%; width:100%; display:inline-block; font-family:'Mitr', sans-serif; text-align:left;}
+.s-email{font-size:1.5em;}
+.s-phone{font-size:1.5em;}
+.s-map{font-size:1.5em;}
+.color{color:rgb(255, 204, 110); float:left; position:relative; margin-left:4em;}
+section>div>a{text-decoration:none; color:wheat;}
+section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
 /*320px — 480px: Mobile Devices*/
 @media screen and (max-width:320px){}
