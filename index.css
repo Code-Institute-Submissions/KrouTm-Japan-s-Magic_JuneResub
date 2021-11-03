@@ -98,10 +98,10 @@ section>div>a{text-decoration:none; color:wheat;}
 section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
 /*320px — 480px: Mobile Devices*/
-@media screen and (max-width:320px){}
+@media screen and (max-width:320px){.main{height:50vh;}}
 
 /*481px — 768px: Tablets*/
-@media screen and (max-width:481px){}
+@media screen and (max-width:481px){.main{height:50vh;}}
 
 /*769px — 1024px: Laptops*/
 @media screen and(max-width:769px){}
