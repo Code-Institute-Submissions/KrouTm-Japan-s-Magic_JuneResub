@@ -42,3 +42,21 @@ GitHub is used to store the projects code after being pushed from Git.
 
 .Adobe Premiere:
 For edit the video and give it the property color, harmonization to the website and adjust the image or videos for different screen types.
+
+HOME
+.Navbar
+I decided to do the navigation bar as simple as delicate to make easy the user experience. But when the user pass the mouse on the option they can see the modern movement.
+
+.The sakura tree video
+When the users open the website, I expect them feeling of calm and excitement. They must know that the most beautiful thing in japan are the sakura trees and whoever made the site knows that and will surely know what to show on the website.
+
+.The best time to go
+It needs to take the user informed about the opportunities he will have in every season of the year.
+
+.Places, Restaurantes and Night Life
+It will show the best places and location to go em how to get there, typical foods and pubs that the user may enjoy that.
+
+.Culture 
+This will explain about local customs and rules and what you can or cannot do and how to do it, such as how to get to places and how to get information without necessarily understanding Japanese language.
+
+
