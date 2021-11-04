@@ -42,11 +42,11 @@ html{scroll-behavior:smooth;}
 .img-night:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition:all .4s;} 
 
 .p0{background-size:cover; position:relative; height:30em; width:35em;}
-.p1{position:relative; width:100%; height:100%; display:inline-block; text-align:center; top:2.5em;}
+.p1{position:relative; width:100%; height:100%; display:inline-block; text-align:center; top:3.5em}
 .p-all{margin-top:5em;}
 
 /*Culture*/
-.img-cuture{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-size:cover; background-repeat:no-repeat; background-position:center; width:40em; height:40em; border-radius:50%; margin:auto; border: double 0.5em rgb(255, 204, 110);}
+.img-cuture{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-size:cover; background-repeat:no-repeat; background-position:center; width:50em; height:40em; border-radius:50%; margin:auto; border: double 0.5em rgb(255, 204, 110);}
 .img-cuture:hover .filter0{background-color:rgba(0, 0, 0, 0.493); width:100%; height:100%; border-radius:50%;}
 
 /*Who are us?*/
@@ -96,48 +96,73 @@ html{scroll-behavior:smooth;}
 section>div>a{text-decoration:none; color:wheat;}
 section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
-/*320px — 480px: Mobile Devices*/
-@media (max-width:320px){.main{height:50vh;}}
-
 /*481px — 768px: Tablets*/
-@media (max-width:481px){
-    .font-link a{font-size:1em;}
-    .main{height:50vh;}
-    .font-every{font-size:4em;}}
-
-/*769px — 1024px: Laptops*/
-@media (max-width:769px){
+@media (min-width:481px) and (max-width:768px){
     /*Navbar*/
     .font-link a{font-size:1em; margin-left:1em; margin-right:1em; top:-1.3em;}
     /*Logo*/
     .header-text{font-size:13px;}
     .header-back{width:45px; height:45px; left:2em; top:0.5em;}
     /*Best time to go*/
-    .img{width:15em; height:15em; background-position:center;}
+    .img{width:15em; height:15em;}
     .p0{height:20em; width:25em;}
-    .font-every{font-size:4em;}
+    .font-every{font-size:2.5em;}
     /*Place, Restaurants and Night Life links*/    
     .img-place{margin-left:2%;}
-    .img-food{bottom:11em;}
-    .img-night{bottom:22em;}
-    .p0{height:11em; width:11em;}
+    .img-food{bottom:10em;}
+    .img-night{bottom:20em; margin-right:2%;}
+    .p0{height:10em; width:10em;}
     .p-all{margin-top:2em;}
-    .font-img{font-size:1.5em;}
-    .img-fish{height:15em;}
+    .font-img{font-size:1.3em;}
+    .img-fish{height:14em;}
     /*Culture*/
-    .img-cuture{width:20em; height:15em;}
+    .img-cuture{width:20em; height:10em;}
     /*Who*/
-    .main{width:100%; height:60vh;}
-    .card{width:80%; color:wheat; margin:auto; transition:all 2s;}
+    .main{height:60vh;}
+    .card{width:80%; margin:auto;}
     .card .heading{font-size:2.5em;}
-    .card .text{font-size:1em; position:relative; top:-2em;}
-    /**/
+    .card .text{font-size:1em; position:relative; top:-2em;}}
 
-/*1025px — 1200px: Desktops*/
-@media (max-width:1025px){}
+/*769px — 1024px: Laptops*/
+@media (min-width:769px) and (max-width:1024px){
+    /*Best time to go*/
+    .img{width:20em; height:20em;}
+    .font-every{font-size:4em;}
+    .img-place{margin-left:2%;}
+    .img-food{bottom:15em;}
+    .img-night{bottom:30em; margin-right:2%;}
+    .p0{height:15em; width:15em;}
+    .p-all{margin-top:2em;}
+    .font-img{font-size:2em;}
+    .img-fish{height:20em;}
+    /*Culture*/
+    .img-cuture{width:30em; height:20em;}
+    /*Who*/
+    .main{height:70vh;}
+    .card{width:60%; margin-left:4%;}
+    .card .heading{font-size:3em;}
+    .card .text{font-size:1.2em; position:relative; top:-2em;}}
 
 /*1201px and more: TV*/
-@media (max-width:1201px){}
+@media (min-width:2500px){
+    /*Best time to go*/
+    .img{width:50em; height:50em;}
+    .font-every{font-size:10em;}
+    /*Place, Restaurants and Night Life links*/    
+    .img-place{margin-left:5%;}
+    .img-food{bottom:50em;}
+    .img-night{bottom:100em; margin-right:5%;}
+    .p0{height:50em; width:50em;}
+    .p1{top:4em;}
+    .font-img{font-size:6.5em; margin-top:-1em;}
+    .img-fish{height:60em;}
+    /*Culture*/
+    .img-cuture{width:60em; height:50em;}    
+    /*Who*/
+    .main{height:100vh;}
+    .card{width:50%; margin-left:5%; transition:all 2s;}
+    .card .heading{font-size:8em;}
+    .card .text{font-size:2.5em;}}
 
 
 
