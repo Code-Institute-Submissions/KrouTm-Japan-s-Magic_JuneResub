@@ -4,7 +4,7 @@ html{scroll-behavior:smooth;}
 /*Link on top*/
 .header-link{background:#45190c8c; position:fixed; top:0; left:0; right:0;}
 .p-link{float:right;}
-.font-link a{transition:all 1s; color:wheat; font-size:20px; font-family:'Montserrat',sans-serif; text-decoration:none; margin-left:2em; margin-right:2em; position:relative; top:-1.3em; padding:1.3em;}
+.font-link a{transition:all 1s; color:wheat; font-size:1.5em; font-family:'Montserrat',sans-serif; text-decoration:none; margin-left:2em; margin-right:2em; position:relative; top:-1.3em; padding:1.3em;}
 .mouse a:hover{background-color:rgba(245, 222, 179, 0.164); padding-right:2em; padding-left:2em;}
 
 /*Japan's Magic*/
@@ -12,17 +12,16 @@ html{scroll-behavior:smooth;}
 .header-back{background-color:rgba(255, 0, 34, 0.411); width:60px; height:60px; border-radius:50%; position:relative; left:4em; top:0.5em; text-align:center;}
 
 /*Background Video*/
-.section{position:relative; height:100vh; width:100%; display:flex; justify-content:center; overflow:hidden;}
-.font-every{font-family:'Fondamento', cursive; color:wheat; font-size:7em; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
+.section{position:relative; height:100vh; width:100%; display:flex; justify-content:center; overflow:hidden; margin:0;}
 .video{position:absolute;}
+
+/*Everything you need to know*/
+.font-every{font-family:'Fondamento', cursive; color:wheat; font-size:7em; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
 .style-angle{transition: all .5s; color:wheat; font-size:2em; width:100%; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; position:relative;}
 .style-angle:hover{color:rgba(245, 222, 179, 0.425); transform:translateY(10px);}
 
-/*Everything you need to know*/
-.every{color:wheat; font-family:'Quicksand', sans-serif; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:5em; position:relative; top:2em; left:16em; width:8em;}
-
 /*Best time to go*/
-.img{background:url(https://images.unsplash.com/photo-1549825253-e4af4bff6a8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80); width:40em; height:40em; border-radius:50%; background-repeat:no-repeat; margin:auto; background-position:center left; border: double 0.5em rgb(255, 204, 110);}
+.img{background:url(https://images.unsplash.com/photo-1549825253-e4af4bff6a8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80); background-size:cover; background-repeat:no-repeat; background-position:center left; width:40em; height:40em; border-radius:50%; margin:auto; border: double 0.5em rgb(255, 204, 110);}
 .img:hover .filter{background-color:rgba(0, 0, 0, 0.493); width:100%; height:100%; border-radius:50%;}
 
 .block{display:table-cell; float:left; position:relative; width:100%;}
@@ -33,26 +32,27 @@ html{scroll-behavior:smooth;}
 .img-fish{background:url(https://images.unsplash.com/photo-1504474298956-b1812fe43d92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80://as1.ftcdn.net/v2/jpg/04/34/90/38/1000_F_434903829_rRZdXOfo4kEV30Pm67JNFFQsWMTY5hMm.jpg) bottom/ cover no-repeat fixed; width:100%; height:40em; display:inline-block;}
 
 /*Place, Restaurants and Night Life links*/
-.img-place{background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80); background-position:center; height:30em; width:35em;}
-.img-place:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition: all .4s;}
+.img-place{background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80); background-position:center; margin-left:2%;}
+.img-place:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition:all .4s;}
 
-.img-food{background-image:url(https://images.unsplash.com/photo-1535007813616-79dc02ba4021?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80); background-position:center; height:30em; width:35em; margin:auto;}
-.img-food:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition: all .4s;}
+.img-food{background-image:url(https://images.unsplash.com/photo-1535007813616-79dc02ba4021?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80); background-position:center; margin:auto; bottom:30em;}
+.img-food:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition:all .4s;}
 
-.img-night{background-image:url(https://images.unsplash.com/photo-1514362453360-8f94243c9996?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1965&q=80); background-position:bottom; height:30em; width:35em; float:left;}
-.img-night:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition: all .4s;} 
+.img-night{background-image:url(https://images.unsplash.com/photo-1514362453360-8f94243c9996?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1965&q=80); background-position:bottom; float:right; bottom:60em; margin-right:2%;}
+.img-night:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition:all .4s;} 
 
-.p0{background-size:cover; position:relative;}
-.p1{position:relative; width:100%; height:100%; text-align:center; display:inline-block;}
+.p0{background-size:cover; position:relative; height:30em; width:35em;}
+.p1{position:relative; width:100%; height:100%; display:inline-block; text-align:center; top:3.5em}
+.p-all{margin-top:5em;}
 
 /*Culture*/
-.img-cuture{background-image:url(https://images.unsplash.com/photo-1530661858370-9b1f9db608da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80); background-size:cover; background-position:center; background-repeat:no-repeat; width:60em; height:40em; border-radius:50%; margin:auto; border: double 0.5em rgb(255, 204, 110);}
-.img-cuture:hover .filter0{background-color:rgba(0, 0, 0, 0.493); width:100%; border-radius:50%;}
+.img-cuture{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-size:cover; background-repeat:no-repeat; background-position:center; width:50em; height:40em; border-radius:50%; margin:auto; border: double 0.5em rgb(255, 204, 110);}
+.img-cuture:hover .filter0{background-color:rgba(0, 0, 0, 0.493); width:100%; height:100%; border-radius:50%;}
 
 /*Who are us?*/
 .img-who{background-image:url(https://images.pexels.com/photos/1494077/pexels-photo-1494077.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size:cover; background-position:center; background-repeat:no-repeat;}
 .main{display:flex; width:100%; height:80vh;}
-.card{width:50%; height:60vh; color:wheat; margin-left:10em; transition:all 2s;}
+.card{width:50%; height:80%; color:wheat; margin-left:10em; transition:all 2s;}
 .heading{position:relative; top:0.5em; transition:all 8s;}
 .card .heading{font-family:'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:5em; text-align:center; transform:translateY(100px); transition:all .8s;}
 .card .text{font-family:'Quicksand', sans-serif; font-size:1.5em; color:rgb(255, 204, 110); margin:10px 30px; transform:translateY(50px); opacity:0; transition:all .8s;}
@@ -69,7 +69,7 @@ html{scroll-behavior:smooth;}
 .msg{position:relative; float:right; right:3%;}
 .style{font-size:1.2em; font-family:'Mitr', sans-serif; color:wheat; background-color:rgba(245, 222, 179, 0.233); border-style:none; display:block; width:20em; border: double 0.3em rgb(255, 204, 110);}
 .style-submit{font-size:1.5em; font-family:'Mitr', sans-serif; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px; position:relative; left:5em; top:1em;}
-.info{font-family:'Mitr', sans-serif; color:wheat; text-decoration:none; position:relative; left:2em}
+.info{font-family:'Mitr', sans-serif; color:wheat; text-decoration:none; position:relative; left:2em;}
 
 /*Social Media*/
 .p-social{font-size:4em; position:absolute; left:5%;}
@@ -96,30 +96,73 @@ html{scroll-behavior:smooth;}
 section>div>a{text-decoration:none; color:wheat;}
 section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
-/*320px — 480px: Mobile Devices*/
-@media screen and (max-width:320px){}
-
 /*481px — 768px: Tablets*/
-@media screen and (max-width:481px){}
+@media (min-width:481px) and (max-width:768px){
+    /*Navbar*/
+    .font-link a{font-size:1em; margin-left:1em; margin-right:1em; top:-1.3em;}
+    /*Logo*/
+    .header-text{font-size:13px;}
+    .header-back{width:45px; height:45px; left:2em; top:0.5em;}
+    /*Best time to go*/
+    .img{width:15em; height:15em;}
+    .p0{height:20em; width:25em;}
+    .font-every{font-size:2.5em;}
+    /*Place, Restaurants and Night Life links*/    
+    .img-place{margin-left:2%;}
+    .img-food{bottom:10em;}
+    .img-night{bottom:20em; margin-right:2%;}
+    .p0{height:10em; width:10em;}
+    .p-all{margin-top:2em;}
+    .font-img{font-size:1.3em;}
+    .img-fish{height:14em;}
+    /*Culture*/
+    .img-cuture{width:20em; height:10em;}
+    /*Who*/
+    .main{height:60vh;}
+    .card{width:80%; margin:auto;}
+    .card .heading{font-size:2.5em;}
+    .card .text{font-size:1em; position:relative; top:-2em;}}
 
 /*769px — 1024px: Laptops*/
-@media screen and(max-width:769px){}
-
-/*1025px — 1200px: Desktops*/
-@media screen and (max-width:1025px){}
+@media (min-width:769px) and (max-width:1024px){
+    /*Best time to go*/
+    .img{width:20em; height:20em;}
+    .font-every{font-size:4em;}
+    .img-place{margin-left:2%;}
+    .img-food{bottom:15em;}
+    .img-night{bottom:30em; margin-right:2%;}
+    .p0{height:15em; width:15em;}
+    .p-all{margin-top:2em;}
+    .font-img{font-size:2em;}
+    .img-fish{height:20em;}
+    /*Culture*/
+    .img-cuture{width:30em; height:20em;}
+    /*Who*/
+    .main{height:70vh;}
+    .card{width:60%; margin-left:4%;}
+    .card .heading{font-size:3em;}
+    .card .text{font-size:1.2em; position:relative; top:-2em;}}
 
 /*1201px and more: TV*/
-@media screen and (max-width:1201px){}
+@media (min-width:2500px){
 
-
-
-
-
-
-
-
-
-
+    /*Best time to go*/
+    .img{width:50em; height:50em;}
+    .font-every{font-size:10em;}
+    /*Place, Restaurants and Night Life links*/    
+    .img-place{margin-left:5%;}
+    .img-food{bottom:50em;}
+    .img-night{bottom:100em; margin-right:5%;}
+    .p0{height:50em; width:50em;}
+    .p1{top:4em;}
+    .font-img{font-size:6.5em; margin-top:-1em;}
+    .img-fish{height:60em;}
+    /*Culture*/
+    .img-cuture{width:60em; height:50em;}    
+    /*Who*/
+    .card{width:50%; margin-left:5%; transition:all 2s;}
+    .card .heading{font-size:8em;}
+    .card .text{font-size:2.5em;}}
 
 
 
