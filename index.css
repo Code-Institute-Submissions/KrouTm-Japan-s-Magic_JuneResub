@@ -25,7 +25,7 @@ body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/
 .img-cuture:hover .filter0{background-color:rgba(0, 0, 0, 0.493); width:100%; height:100%; border-radius:50%;}
 
 /*Fish Background*/
-.font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 7vh; text-decoration:none;}
+
 
 .img-fish{background:url(https://images.unsplash.com/photo-1504474298956-b1812fe43d92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80://as1.ftcdn.net/v2/jpg/04/34/90/38/1000_F_434903829_rRZdXOfo4kEV30Pm67JNFFQsWMTY5hMm.jpg) top/ cover fixed; width:100%; height:65vh; display:inline-block;}
 
@@ -40,8 +40,20 @@ body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/
 .img-night:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition:all .4s;} 
 
 .p-img{background-size:cover; height:50vh; width:55vh; display:inline-block; margin-right: 2vh; margin-left: 2vh;}
-.p-letter{position: relative; top: 20vh;}
 .p-all{width:100%; height:100%; position:relative; text-align:center; margin-top: 5%;}
+.title{position: relative; top:10%; transition: all .5s;}
+.title:hover{color: rgba(245, 222, 179, 0.5);}
+
+.font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 7vh; text-decoration:none;}
+
+.back{width:100%; height:100%; transition:all 2s;}
+.back .text{font-family:'Quicksand', sans-serif; font-size:2.5vh; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(15vh); opacity:0; transition:all .8s;}
+.back:hover{background-color:rgba(0, 0, 0, 0.5);}
+.back:hover .text{transform:translateY(5vh);}
+.back:hover .text, .back:hover{opacity:1;}
+
+
+
 
 /*Best time to go*/
 .img-winter{background-image: url(https://images.unsplash.com/photo-1639084546254-49863248a466?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80); background-size:cover; background-repeat:no-repeat; background-position:center; width:100%; height:50vh;}
@@ -50,17 +62,18 @@ body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/
 
 .block{display: flex; text-align: center; margin-top: 10vh; margin-bottom: 10vh;}
 .p{width:100%; text-align:center; position: absolute; display: table; margin-top: 20vh;}
-.font-img-best{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 15vh; text-decoration:none; }
+.font-img-best{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 17vh; text-decoration:none; }
 
 /*Who are us?*/
 .img-who{background-image:url(https://images.pexels.com/photos/1494077/pexels-photo-1494077.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size:cover; background-position:center; background-repeat:no-repeat;}
 .main{display:flex; width:100%; height:80vh;}
-.card{width:50%; height:80%; margin-left:20vh; transition:all 2s;}
-.heading{position:relative; top:4.5vh; transition:all 8s;}
+.card{width:50%; height:80%; margin-left:10%; transition:all 2s;}
+.heading{position:relative; top:7vh; transition:all 8s;}
 .card .heading{text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:10vh; text-align:center; transform:translateY(100px); transition:all .8s;}
-.card .text{font-family:'Quicksand', sans-serif; font-size:2.5vh; color:rgb(255, 204, 110); margin:5vh 5vh; transform:translateY(50px); opacity:0; transition:all .8s;}
+.card .text{font-family:'Quicksand', sans-serif; font-size:2.5vh; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(50px); opacity:0; transition:all .8s;}
 .card:hover{background-color:rgba(0, 0, 0, 0.37);}
-.card:hover .heading{transform:translateY(15px);}
+.card:hover .heading{transform:translateY(-15px);}
+.card:hover .text{transform:translateY(-5px);}
 .card:hover .text, .card:hover{opacity:1;}
 
 /*Contact*/
