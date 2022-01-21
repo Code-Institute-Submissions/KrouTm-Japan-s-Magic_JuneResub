@@ -1,8 +1,8 @@
-body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-025-eye-01_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a00d6c0f4d514aeb5fe93b069730c3);}
+body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-025-eye-01_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a00d6c0f4d514aeb5fe93b069730c3); color:wheat; font-family: 'Cinzel Decorative', cursive;}
 html{scroll-behavior:smooth;}
 
 /*Link on top*/
-.header-link{background:#45190c8c; position:fixed; top:0; left:0; right:0;}
+.header-link{background:#45190c8c; position:fixed; top:0; left:0; right:0; z-index: 3;}
 .p-link{float:right;}
 .font-link a{transition:all 1s; color:wheat; font-size:1.5em; font-family:'Montserrat',sans-serif; text-decoration:none; margin-left:2em; margin-right:2em; position:relative; top:-1.3em; padding:1.3em;}
 .mouse a:hover{background-color:rgba(245, 222, 179, 0.164); padding-right:2em; padding-left:2em;}
@@ -16,8 +16,8 @@ html{scroll-behavior:smooth;}
 .video{position:absolute;}
 
 /*Everything you need to know*/
-.font-every{font-family:'Fondamento', cursive; color:wheat; font-size:7em; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
-.style-angle{transition: all .5s; color:wheat; font-size:2em; width:100%; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; position:relative;}
+.font-every{font-family:'Fondamento', cursive; font-size:7em; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
+.style-angle{transition: all .5s; color:wheat; font-size:1em; width:100%; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; position:relative;}
 .style-angle:hover{color:rgba(245, 222, 179, 0.425); transform:translateY(10px);}
 
 /*Best time to go*/
@@ -25,7 +25,7 @@ html{scroll-behavior:smooth;}
 .img:hover .filter{background-color:rgba(0, 0, 0, 0.493); width:100%; height:100%; border-radius:50%;}
 
 .block{display:table-cell; float:left; position:relative; width:100%;}
-.font-img{color:wheat; font-family: 'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4.5em; text-decoration:none;}
+.font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4.5em; text-decoration:none;}
 .p{position:relative; top:3.5em; width:100%; text-align:center; display:inline-block;}
 
 /*Fish Background*/
@@ -73,12 +73,8 @@ html{scroll-behavior:smooth;}
 
 /*Social Media*/
 .p-social{font-size:4em; position:absolute; left:5%;}
-.style-ins{color:rgb(255, 204, 110);}
-.style-tw{color:rgb(255, 204, 110);}
-.style-fa{color:rgb(255, 204, 110);}
-.style-fa:hover{color:rgba(255, 204, 110, 0.507);}
-.style-tw:hover{color:rgba(255, 204, 110, 0.425);}
-.style-ins:hover{color:rgba(255, 204, 110, 0.507);}
+.social{color:rgb(255, 204, 110);}
+.social:hover{color:rgba(255, 204, 110, 0.507);}
 
 /*Subscribe*/
 .p-sign{position:relative; margin-left:auto; margin-right:auto; top:3em; left:-13%; border:rgb(255, 204, 110) solid 4px; padding:2em; width:30em; text-align:left;}
