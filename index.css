@@ -26,8 +26,8 @@ label.logo {color:white; font-size: 4vh; line-height: 80px; margin-left: 3vh;}
 
 /*Culture*/
 .img-cuture{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-size:cover; background-repeat:no-repeat; background-position:center; width:40rem; height:30rem; border-radius: 0px 50% 50% 0px ;}
-.font-img-c{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 10rem; text-decoration:none;}
-.culture-text{font-family:'Quicksand', sans-serif; font-size: 20px; width: 30em; margin-left: 50px;}
+.font-img-c{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 20vh; text-decoration:none; margin: 2rem;}
+.culture-text{font-family:'Quicksand', sans-serif; font-size: 2.5vh; width: 100%;}
 .block0{display: flex; background-color: rgba(255, 255, 255, 0.2); margin-top:12vh; margin-bottom:12vh;}
 
 /*Fish Background*/
@@ -118,13 +118,17 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 @media (min-width:481px) and (max-width:768px){
     /*Every thing you need to know*/
     .font-every{font-size: 60px;}
-    /*Best time to go*/
-    .font-img-best{font-size: 85px;}
-    .size-img{height:25rem;}
+    /*Culture*/
+    .img-cuture{height:10rem;}
+    .font-img-c{font-size: 4rem;}
+    .culture-text{font-size: 17px;}
     /*Place, Restaurants and Night Life links*/
     .p-img{height:25rem; width:25rem; margin: 10px 10px;}
     .font-img{font-size: 50px;}
     .back .text{font-size: 20px;}
+    /*Best time to go*/
+    .font-img-best{font-size: 85px;}
+    .size-img{height:25rem;}    
     /*Who are us?*/
     .card{width:90%; height:90%; margin:auto; margin-top: 5%;} 
     .card .heading{font-size:50px;}
@@ -136,14 +140,18 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 @media (min-width:769px) and (max-width:1024px){
     /*Every thing you need to know*/
     .font-every{font-size: 80px;}
-    /*Best time to go*/
-    .font-img-best{font-size: 85px;}
-    .size-img{height:20rem;}
+    /*Culture*/
+    .img-cuture{width: 80rem; height:20rem;}
+    .font-img-c{font-size: 5rem;}
+    .culture-text{font-size: 20px;}
     /*Place, Restaurants and Night Life links*/
     .p-img{margin: 40px 4px;}
     .p-img{height:25rem; width:15rem;}
     .font-img{font-size: 30px;}
     .back .text{font-size: 17px;}
+    /*Best time to go*/
+    .font-img-best{font-size: 85px;}
+    .size-img{height:20rem;}    
     /*Who are us?*/
     .card{width:80%; height:80%; margin:auto; margin-top: 5%;}
     .card .heading{font-size:60px;}
@@ -155,14 +163,18 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 @media (min-width:1025px) and (max-width:1200px){
         /*Every thing you need to know*/
         .font-every{font-size: 90px;}
-        /*Best time to go*/
-        .font-img-best{font-size: 110px;}
-        .size-img{height:25rem;}
+        /*Culture*/
+        .img-cuture{width: 100rem; height:25rem;}
+        .font-img-c{font-size: 7rem;}
+        .culture-text{font-size: 20px;}
         /*Place, Restaurants and Night Life links*/
         .p-img{margin: 40px 4px;}
         .p-img{height:30rem; width:20rem;}
         .font-img{font-size: 40px;}
         .back .text{font-size: 22px;}
+        /*Best time to go*/
+        .font-img-best{font-size: 110px;}
+        .size-img{height:25rem;}        
         /*Who are us?*/
         .card{width:80%; height:80%; margin:auto; margin-top: 5%;}
         .card .heading{font-size:80px;}
@@ -171,7 +183,27 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 }
 
 /*1201px and more — Extra large screens, TV*/
-@media (min-width:1201px){}
+@media (min-width:1201px) and (max-width:1500px){
+        /*Every thing you need to know*/
+        .font-every{font-size: 100px;}
+        /*Culture*/
+        .img-cuture{width: 120rem; height:30rem;}
+        .font-img-c{font-size: 8rem;}
+        .culture-text{font-size: 25px;}
+        /*Place, Restaurants and Night Life links*/
+        .p-img{margin: 40px 4px;}
+        .p-img{height:30rem; width:24rem;}
+        .font-img{font-size: 50px;}
+        .back .text{font-size: 25px;}
+        /*Best time to go*/
+        .font-img-best{font-size: 130px;}
+        .size-img{height:25rem;}
+        /*Who are us?*/
+        .card{width:80%; height:80%; margin:auto; margin-top: 5%;}
+        .card .heading{font-size:80px;}
+        .card .text{font-size: 25px;}
+        .main{height:70vh;}
+}
 
 @media (max-width: 1024px){
 	.checkbtn {display: block;}
