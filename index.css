@@ -6,7 +6,7 @@ body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/
 nav {background:rgba(65, 65, 65, 0.5); height: 80px; width: 100%; position: fixed; z-index: 3;}
 nav ul {float: right; margin-right: 2vh;}
 nav ul li {display: inline-block; line-height: 80px; margin: 0 1vh;}
-nav ul li a {color: wheat; font-size: 2.5vh; padding: 25px; transition: all .8s; text-decoration: none; font-family:'Montserrat',sans-serif;}
+nav ul li a {color: wheat; font-size: 25px; padding: 25px; transition: all .8s; text-decoration: none; font-family:'Montserrat',sans-serif;}
 nav ul li a:hover {background-color:rgba(245, 222, 179, 0.2); padding-left: 40px; padding-right: 40px;}
 .checkbtn {font-size: 30px; color: wheat; float: right; line-height: 80px; margin-right: 40px; cursor: pointer; display: none;}
 #check {display: none;}
@@ -20,14 +20,14 @@ label.logo {color:white; font-size: 4vh; line-height: 80px; margin-left: 3vh;}
 .video{position:absolute;}
 
 /*Everything you need to know*/
-.font-every{font-family: 'Cinzel Decorative', cursive; background-color: rgb(70, 37, 29, 0.5); width:100%; font-size:12vh; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
+.font-every{font-family: 'Cinzel Decorative', cursive; background-color: rgb(70, 37, 29, 0.5); width:100%; font-size:120px; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
 .style-angle{transition: all .5s; color:wheat; font-size:1em; width:100%; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; position:relative;}
 .style-angle:hover{color:rgba(245, 222, 179, 0.425); transform:translateY(10px);}
 
 /*Culture*/
-.img-cuture{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-size:cover; background-repeat:no-repeat; background-position:center; width:40rem; height:30rem; border-radius: 0px 50% 50% 0px ;}
-.font-img-c{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 20vh; text-decoration:none; margin: 2rem;}
-.culture-text{font-family:'Quicksand', sans-serif; font-size: 2.5vh; width: 100%;}
+.img-cuture{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-size:cover; background-repeat:no-repeat; background-position:center; width:150rem; height:40rem; border-radius: 0px 50% 50% 0px ;}
+.font-img-c{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 200px; text-decoration:none; margin: 2rem;}
+.culture-text{font-family:'Quicksand', sans-serif; font-size: 25px; width: 100%;}
 .block0{display: flex; background-color: rgba(255, 255, 255, 0.2); margin-top:12vh; margin-bottom:12vh;}
 
 /*Fish Background*/
@@ -47,10 +47,10 @@ label.logo {color:white; font-size: 4vh; line-height: 80px; margin-left: 3vh;}
 .p-all{width:100%; height:100%; position:relative; text-align:center;}
 .title{position: relative; top:10%; transition: all .5s;}
 .title:hover{color: rgba(245, 222, 179, 0.5);}
-.font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 7vh; text-decoration:none;}
+.font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 70px; text-decoration:none;}
 
 .back{width:100%; height:100%; transition:all 2s;}
-.back .text{font-family:'Quicksand', sans-serif; font-size:2.5vh; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(15vh); opacity:0; transition:all .8s;}
+.back .text{font-family:'Quicksand', sans-serif; font-size:25px; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(15vh); opacity:0; transition:all .8s;}
 .back:hover{background-color:rgba(0, 0, 0, 0.5);}
 .back:hover .text{transform:translateY(50px);}
 .back:hover .text, .back:hover{opacity:1;}
@@ -62,7 +62,7 @@ label.logo {color:white; font-size: 4vh; line-height: 80px; margin-left: 3vh;}
 
 .size-img{width:100%; height:50vh;}
 .block{display: flex; text-align: center; margin-top: 12vh; margin-bottom: 12vh;}
-.font-img-best{width:100%; text-align:center; position: absolute; display: table; margin-top: 20vh; color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 17vh; text-decoration:none; transition: all .5s;}
+.font-img-best{width:100%; text-align:center; position: absolute; display: table; margin-top: 20vh; color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 200px; text-decoration:none; transition: all .5s;}
 .font-img-best:hover{color: rgba(245, 222, 179, 0.5);}
 
 /*Who are us?*/
@@ -70,12 +70,24 @@ label.logo {color:white; font-size: 4vh; line-height: 80px; margin-left: 3vh;}
 .main{display:flex; width:100%; height:80vh;}
 .card{width:50%; height:80%; margin-left:10%; margin-top: 5vh; transition:all 2s;}
 .heading{position:relative; top:7vh; transition:all 8s;}
-.card .heading{text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:10vh; text-align:center; transform:translateY(100px); transition:all .8s;}
-.card .text{font-family:'Quicksand', sans-serif; font-size:2.5vh; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(100px); opacity:0; transition:all .8s;}
+.card .heading{text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:100px; text-align:center; transform:translateY(100px); transition:all .8s;}
+.card .text{font-family:'Quicksand', sans-serif; font-size:25px; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(100px); opacity:0; transition:all .8s;}
 .card:hover{background-color:rgba(0, 0, 0, 0.37);}
 .card:hover .heading{transform:translateY(-15px);}
 .card:hover .text{transform:translateY(30px);}
 .card:hover .text, .card:hover{opacity:1;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Contact*/
 .contact{position:absolute; width:100%; top:5em; text-align:center; display:inline-block;}
