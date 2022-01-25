@@ -135,8 +135,8 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .font-img-c{font-size: 3rem;}
     .culture-text{font-size: 15px;}
     /*Place, Restaurants and Night Life links*/
-    .p-img{height:20rem; width:20rem; margin: 5px 5px;}
-    .font-img{font-size: 35px;}
+    .p-img{height:20rem; width:25rem; margin: 5px 5px;}
+    .font-img{font-size: 40px;}
     .back .text{font-size: 15px;}
     /*Best time to go*/
     .font-img-best{font-size: 60px;}
