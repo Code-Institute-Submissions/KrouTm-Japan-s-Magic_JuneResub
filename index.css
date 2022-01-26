@@ -78,18 +78,6 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 .card:hover .text{transform:translateY(30px);}
 .card:hover .text, .card:hover{opacity:1;}
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*Contact*/
 .contact{position:relative; width:100%; top:5em; height: 17rem; text-align:center;}
 .font-contact{color:wheat; font-family: 'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4.5em;}
@@ -98,8 +86,8 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 #line2{border: solid 1px rgb(255, 204, 110); width:100%; position:relative; display:inline-block; margin-top: 2rem; margin-bottom: 2rem;}
 
 /*Subscribe*/
-.p-sign{color:wheat; font-family:'Mitr', sans-serif; position:relative; border:rgb(255, 204, 110) solid 4px; padding:2em; margin: 20px; float: right; width:30em; text-align:left;}
-.style-stay{color:rgb(255, 204, 110);}
+.p-sign{color:wheat; font-family:'Mitr', sans-serif; position:relative; border:rgb(255, 204, 110) solid 4px; padding:2em; margin: auto; width:30em; text-align:left;}
+.style-stay{color:rgb(255, 204, 110); font-size: 1.5rem; text-transform: uppercase;}
 .style-sign{padding: 5px; font-size:1.2em; color:rgb(43, 26, 21); background-color: rgba(245, 222, 179, 0.233); border-style:none; border-radius:0.5rem; border:3px solid rgb(255, 204, 110);}
 .sign-up{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); cursor: pointer; padding: 5px; border-style:none; border-radius: 0px 10px;}
 
@@ -109,8 +97,8 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 .style-submit{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px; position:relative; float: right; margin: 1rem; cursor: pointer; padding: 5px;}
 
 /*Social Media*/
-.p-social{font-size:3em; position:fixed; background:rgba(65, 65, 65, 0.5); padding: 1rem; left: 0; top:6rem;}
-.social{color:rgb(255, 204, 110);}
+.p-social{font-size:3em; text-align: center;}
+.social{color:rgb(255, 204, 110); padding-right: 1rem; padding-left: 1rem;}
 .social:hover{color:rgba(255, 204, 110, 0.507);}
 
 /*Footer*/
@@ -138,7 +126,6 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .card{width:100%; height:100%; margin:auto}     
     .card .heading{font-size:35px; transform:translateY(50px);}
     .card .text{font-size: 15px;}
-    .p-sign{margin:auto; float: none;}
 }
 
 /*481px — 768px: iPads, Tablets*/
@@ -160,7 +147,6 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .card{width:100%; height:100%; margin:auto}     
     .card .heading{font-size:45px; transform:translateY(50px);}
     .card .text{font-size: 15px;}
-    .p-sign{margin:auto; float: none;}
 }
 
 /*769px — 1024px: Small screens, laptops*/
@@ -183,9 +169,6 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .card{width:80%; height:80%; margin:auto; margin-top: 5%;}
     .card .heading{font-size:60px;}
     .card .text{font-size: 20px;}
-
-    .p-sign{margin:auto; float: none;}
-
 }
 
 /*1025px — 1200px: Desktops, large screens*/
