@@ -110,8 +110,8 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 /*320px — 480px: Mobile devices*/
 @media (min-width:320px) and (max-width:480px){
     /*Japan's Magic*/
-    label.logo {font-size: 20px; line-height: 80px; margin-left: 30px;}
-    .header-back{ width:60px; height:60px;}
+    label.logo {font-size: 30px; line-height: 80px;}
+    .header-back{width:40px; height:40px;}
     /*Every thing you need to know*/
     .font-every{font-size: 35px;}
     /*Culture*/
@@ -138,9 +138,6 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){ 
-    /*Japan's Magic*/
-    label.logo {font-size: 30px; line-height: 80px;}
-    .header-back{width:40px; height:40px;}
     /*Every thing you need to know*/
     .font-every{font-size: 50px;}
     /*Culture*/
