@@ -91,34 +91,31 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 
 
 /*Contact*/
-.contact{position:relative; width:100%; top:5em; height: 30vh; text-align:center;}
+.contact{position:relative; width:100%; top:5em; height: 17rem; text-align:center;}
 .font-contact{color:wheat; font-family: 'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4.5em;}
-.hello{font-family:'Mitr', sans-serif; color:wheat;}
+.we-are-always{font-family:'Mitr', sans-serif; color:wheat;}
 #line{border: solid 1px rgb(255, 204, 110); width:100%; position:relative; display:inline-block; margin-top: 2rem; margin-bottom: 2rem;}
 #line2{border: solid 1px rgb(255, 204, 110); width:100%; position:relative; display:inline-block; margin-top: 2rem; margin-bottom: 2rem;}
 
 /*Subscribe*/
-.p-sign{color:wheat; font-family:'Mitr', sans-serif; position:relative; border:rgb(255, 204, 110) solid 4px; padding:2em; margin-right: 20px; float: right; width:30em; text-align:left;}
+.p-sign{color:wheat; font-family:'Mitr', sans-serif; position:relative; border:rgb(255, 204, 110) solid 4px; padding:2em; margin: 20px; float: right; width:30em; text-align:left;}
 .style-stay{color:rgb(255, 204, 110);}
-.style-sign{padding: 5px; font-size:1.2em; color:rgb(43, 26, 21); background-color: rgba(245, 222, 179, 0.233); border-style:none; border-radius:0.5em; border:3px solid rgb(255, 204, 110);}
+.style-sign{padding: 5px; font-size:1.2em; color:rgb(43, 26, 21); background-color: rgba(245, 222, 179, 0.233); border-style:none; border-radius:0.5rem; border:3px solid rgb(255, 204, 110);}
 .sign-up{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); cursor: pointer; padding: 5px; border-style:none; border-radius: 0px 10px;}
 
 /*Message*/
 .p-msg{position:relative; display: inline-block; margin-top: 20px;}
-.style{font-size:1.2em; font-family:'Mitr', sans-serif; color:wheat; background-color:rgba(245, 222, 179, 0.233); border-style:none; display:block; width:20em; border: double 0.3em rgb(255, 204, 110);}
-.style-submit{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px; position:relative; left:5em; top:1em; cursor: pointer; padding: 5px;}
+.style{padding: 0.2rem; border-radius: 0.5rem; font-size:1.2em; font-family:'Mitr', sans-serif; color:wheat; background-color:rgba(245, 222, 179, 0.233); border-style:none; display:block; width:20em; border: solid 3px rgb(255, 204, 110);}
+.style-submit{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px; position:relative; float: right; margin: 1rem; cursor: pointer; padding: 5px;}
 
 /*Social Media*/
-.p-social{font-size:4em; position:absolute;}
+.p-social{font-size:3em; position:fixed; background:rgba(65, 65, 65, 0.5); padding: 1rem; left: 0; top:6rem;}
 .social{color:rgb(255, 204, 110);}
 .social:hover{color:rgba(255, 204, 110, 0.507);}
 
 /*Footer*/
-.hello2{position:relative; width:100%; color:wheat; font-family:'Mitr', sans-serif; text-align:left; }
-.s-email{font-size:1.5em;}
-.s-phone{font-size:1.5em;}
-.s-map{font-size:1.5em;}
-.color{color:rgb(255, 204, 110); float:left; position:relative; padding: 15px;}
+.hello{font-size:1rem; position:relative; color:wheat; font-family:'Mitr', sans-serif; text-align:left;}
+.color{color:rgb(255, 204, 110); padding: 15px; float:left;}
 section>div>a{text-decoration:none; color:wheat;}
 section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
@@ -131,7 +128,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .font-img-c{font-size: 3rem;}
     .culture-text{font-size: 15px;}
     /*Place, Restaurants and Night Life links*/
-    .p-img{height:20rem; width:25rem; margin: 5px 5px;}
+    .p-img{height:20rem; width:20rem; margin: 5px 5px;}
     .font-img{font-size: 40px;}
     .back .text{font-size: 15px;}
     /*Best time to go*/
@@ -141,6 +138,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .card{width:100%; height:100%; margin:auto}     
     .card .heading{font-size:35px; transform:translateY(50px);}
     .card .text{font-size: 15px;}
+    .p-sign{margin:auto; float: none;}
 }
 
 /*481px — 768px: iPads, Tablets*/
@@ -162,6 +160,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .card{width:100%; height:100%; margin:auto}     
     .card .heading{font-size:45px; transform:translateY(50px);}
     .card .text{font-size: 15px;}
+    .p-sign{margin:auto; float: none;}
 }
 
 /*769px — 1024px: Small screens, laptops*/
@@ -185,15 +184,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .card .heading{font-size:60px;}
     .card .text{font-size: 20px;}
 
-    /*Contact*/
-    .p-msg{position: relative; float: none; margin:auto;}
-    /*Social Media*/
-    .p-social{font-size:3em; position:fixed; background:rgba(65, 65, 65, 0.5); padding: 1rem; left: 0;}
-    /*Subscribe*/
-    .p-sign{position:relative;}
-    /*Footer*/
-    .hello2{position:relative; width:100%; display:inline-block; font-family:'Mitr', sans-serif; text-align:left;}
-    .color{color:rgb(255, 204, 110); float:left; position:relative; padding: 15px;}
+    .p-sign{margin:auto; float: none;}
 
 }
 
