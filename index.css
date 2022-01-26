@@ -48,7 +48,7 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 .p-all{width:100%; height:100%; position:relative; text-align:center;}
 .title{position: relative; top:10%; transition: all .5s;}
 .title:hover{color: rgba(245, 222, 179, 0.5);}
-.font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 60px; text-decoration:none;}
+.font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 70px; text-decoration:none;}
 
 .back{width:100%; height:100%; transition:all 2s;}
 .back .text{font-family:'Quicksand', sans-serif; font-size:25px; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(15vh); opacity:0; transition:all .8s;}
@@ -223,8 +223,8 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
         .card .heading{font-size:80px;}
         .card .text{font-size: 25px;}
 }
-/*1501 — 2000px*/
-@media (min-width:1501px) and (max-width:1900px){
+/*1501 — 1920px*/
+@media (min-width:1501px) and (max-width:1920px){
         /*Every thing you need to know*/
         .font-every{font-size: 130px;}
         /*Culture*/
@@ -232,10 +232,10 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
         /*Place, Restaurants and Night Life links*/
         .p-img{margin: 30px 4px;}
         .p-img{height:30rem; width:30rem;}
-        .font-img{font-size: 50px;}
+        .font-img{font-size: 60px;}
         .back .text{font-size: 25px;}
         /*Best time to go*/
-        .font-img-best{font-size: 130px;}
+        .font-img-best{font-size: 160px;}
         .size-img{height:25rem;}
 }
 
