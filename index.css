@@ -1,5 +1,5 @@
 body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-025-eye-01_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a00d6c0f4d514aeb5fe93b069730c3); color:wheat; font-family: 'Cinzel Decorative', cursive;}
-/*html{scroll-behavior:smooth;}*/
+html{scroll-behavior:smooth;}
 
 /*Link on top*/
 * {padding: 0; margin: 0; box-sizing: border-box;}
@@ -110,8 +110,8 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 /*320px — 480px: Mobile devices*/
 @media (min-width:320px) and (max-width:480px){
     /*Japan's Magic*/
-    label.logo {font-size: 30px; line-height: 80px;}
-    .header-back{width:40px; height:40px;}
+    label.logo {font-size: 25px; line-height: 80px;}
+    .header-back{width:35px; height:35px;}
     /*Every thing you need to know*/
     .font-every{font-size: 35px;}
     /*Culture*/
