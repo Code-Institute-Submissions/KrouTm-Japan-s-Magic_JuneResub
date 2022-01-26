@@ -79,22 +79,22 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 .card:hover .text, .card:hover{opacity:1;}
 
 /*Contact*/
-.contact{position:relative; width:100%; top:5em; height: 17rem; text-align:center;}
+.contact{position:relative; width:100%; text-align:center; padding-top: 5rem;}
 .font-contact{color:wheat; font-family: 'Cinzel Decorative', cursive; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:4.5em;}
 .we-are-always{font-family:'Mitr', sans-serif; color:wheat;}
 #line{border: solid 1px rgb(255, 204, 110); width:100%; position:relative; display:inline-block; margin-top: 2rem; margin-bottom: 2rem;}
 #line2{border: solid 1px rgb(255, 204, 110); width:100%; position:relative; display:inline-block; margin-top: 2rem; margin-bottom: 2rem;}
 
 /*Subscribe*/
-.p-sign{color:wheat; font-family:'Mitr', sans-serif; position:relative; border:rgb(255, 204, 110) solid 4px; padding:2em; margin: auto; width:30em; text-align:left;}
+.p-sign{color:wheat; font-family:'Mitr', sans-serif; position:relative; border:rgb(255, 204, 110) solid 4px; padding:2em; margin: auto; width:30rem; text-align:left;}
 .style-stay{color:rgb(255, 204, 110); font-size: 1.5rem; text-transform: uppercase;}
 .style-sign{padding: 5px; font-size:1.2em; color:rgb(43, 26, 21); background-color: rgba(245, 222, 179, 0.233); border-style:none; border-radius:0.5rem; border:3px solid rgb(255, 204, 110);}
-.sign-up{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); cursor: pointer; padding: 5px; border-style:none; border-radius: 0px 10px;}
+.sign-up{margin: 0.5rem; font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); cursor: pointer; padding: 5px; border-style:none; border-radius: 0px 10px;}
 
 /*Message*/
 .p-msg{position:relative; display: inline-block; margin-top: 20px;}
-.style{padding: 0.2rem; border-radius: 0.5rem; font-size:1.2em; font-family:'Mitr', sans-serif; color:wheat; background-color:rgba(245, 222, 179, 0.233); border-style:none; display:block; width:20em; border: solid 3px rgb(255, 204, 110);}
-.style-submit{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px; position:relative; float: right; margin: 1rem; cursor: pointer; padding: 5px;}
+.style{padding: 0.2rem; border-radius: 0.5rem; font-size:1.2em; font-family:'Mitr', sans-serif; color:wheat; background-color:rgba(245, 222, 179, 0.233); border-style:none; display:block; width:100%; border: solid 3px rgb(255, 204, 110);}
+.style-submit{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px; position:relative; margin: auto; cursor: pointer; padding: 5px; width:100%}
 
 /*Social Media*/
 .p-social{font-size:3em; text-align: center;}
@@ -126,6 +126,10 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .card{width:100%; height:100%; margin:auto}     
     .card .heading{font-size:35px; transform:translateY(50px);}
     .card .text{font-size: 15px;}
+    .font-contact{font-size:3em;}
+    .p-social{font-size:2em;}
+    .social{padding-right: 0.5rem; padding-left: 0.5rem;}
+    .p-sign{padding:1em; width:20rem;}
 }
 
 /*481px — 768px: iPads, Tablets*/
