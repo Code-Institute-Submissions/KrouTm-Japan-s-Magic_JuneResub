@@ -110,8 +110,8 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 /*320px — 480px: Mobile devices*/
 @media (min-width:320px) and (max-width:480px){
     /*Japan's Magic*/
-    label.logo {font-size: 25px; line-height: 80px;}
-    .header-back{width:35px; height:35px;}
+    label.logo {font-size: 20px; line-height: 80px;}
+    .header-back{width:30px; height:30px;}
     /*Every thing you need to know*/
     .font-every{font-size: 35px;}
     /*Culture*/
