@@ -116,6 +116,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     /*Place, Restaurants and Night Life links*/
     .img-fish{background-repeat: repeat;}
     .p-img{height:20rem; width:80%; margin:20px;}
+    .p-all{display: inline-block;}
     .font-img{font-size: 35px;}
     .back .text{font-size: 15px;}
     /*Best time to go*/
@@ -142,6 +143,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .culture-text{font-size: 17px;}
     /*Place, Restaurants and Night Life links*/
     .p-img{height:30rem; width:80%; margin: 20px;}
+    .p-all{display: inline-block;}
     .font-img{font-size: 50px;}
     .back .text{font-size: 20px;}
     /*Best time to go*/
