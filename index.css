@@ -36,22 +36,17 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 
 /*Place, Restaurants and Night Life links*/
 .img-place{background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80); background-position:center;}
-.img-place:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition:all .4s;}
-
 .img-food{background-image:url(https://images.unsplash.com/photo-1535007813616-79dc02ba4021?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80); background-position:center;}
-.img-food:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition:all .4s;}
-
 .img-night{background-image:url(https://images.unsplash.com/photo-1514362453360-8f94243c9996?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1965&q=80); background-position:bottom;}
-.img-night:hover .blur{backdrop-filter:blur(5px); height:100%; width:100%; transition:all .4s;} 
 
-.p-img{background-size:cover; height:40rem; width:35rem; display:inline-block; margin: 100px 20px;}
-.p-all{width:100%; height:100%; position:relative; text-align:center;}
+.p-img{background-size:cover; height:40rem; width:35rem; display:inline-block; margin: 100px 50px;}
+.p-all{width:100%; height:100%; position:relative; text-align:center; display: inline-flex; justify-content: center; align-items: center;}
 .title{position: relative; top:10%; transition: all .5s;}
 .title:hover{color: rgba(245, 222, 179, 0.5);}
 .font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 70px; text-decoration:none;}
 
-.back{width:100%; height:100%; transition:all 2s;}
-.back .text{font-family:'Quicksand', sans-serif; font-size:25px; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(15vh); opacity:0; transition:all .8s;}
+.back{width:100%; height:100%; transition:all 0.8s;}
+.back .text{font-family:'Quicksand', sans-serif; font-size:25px; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(150px); opacity:0; transition:all .8s;}
 .back:hover{background-color:rgba(0, 0, 0, 0.5);}
 .back:hover .text{transform:translateY(50px);}
 .back:hover .text, .back:hover{opacity:1;}
@@ -231,7 +226,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
         /*Culture*/
         .font-img-c{font-size: 10rem;}
         /*Place, Restaurants and Night Life links*/
-        .p-img{margin: 30px 4px;}
+        .p-img{margin: 50px 4px;}
         .p-img{height:30rem; width:30rem;}
         .font-img{font-size: 60px;}
         .back .text{font-size: 25px;}
