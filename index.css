@@ -115,11 +115,11 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     /*Every thing you need to know*/
     .font-every{font-size: 35px;}
     /*Culture*/
-    .img-cuture{height:10rem;}
+    .img-cuture{height:5rem;}
     .font-img-c{font-size: 3rem;}
     .culture-text{font-size: 15px;}
     /*Place, Restaurants and Night Life links*/
-    .p-img{height:20rem; width:20rem; margin: 5px 5px;}
+    .p-img{height:20rem; width:80%; margin:auto;}
     .font-img{font-size: 40px;}
     .back .text{font-size: 15px;}
     /*Best time to go*/
@@ -141,11 +141,11 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     /*Every thing you need to know*/
     .font-every{font-size: 50px;}
     /*Culture*/
-    .img-cuture{height:20rem;}
+    .img-cuture{height:10rem;}
     .font-img-c{font-size: 4rem;}
     .culture-text{font-size: 17px;}
     /*Place, Restaurants and Night Life links*/
-    .p-img{height:25rem; width:25rem; margin: 10px 10px;}
+    .p-img{height:30rem; width:80%; margin:auto;}
     .font-img{font-size: 50px;}
     .back .text{font-size: 20px;}
     /*Best time to go*/
@@ -163,7 +163,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     /*Every thing you need to know*/
     .font-every{font-size: 80px;}
     /*Culture*/
-    .img-cuture{width: 80rem; height:20rem;}
+    .img-cuture{height:20rem;}
     .font-img-c{font-size: 5rem;}
     .culture-text{font-size: 20px;}
     /*Place, Restaurants and Night Life links*/
@@ -185,7 +185,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
         /*Every thing you need to know*/
         .font-every{font-size: 90px;}
         /*Culture*/
-        .img-cuture{width: 100rem; height:25rem;}
+        .img-cuture{height:25rem;}
         .font-img-c{font-size: 7rem;}
         .culture-text{font-size: 20px;}
         /*Place, Restaurants and Night Life links*/
@@ -207,7 +207,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
         /*Every thing you need to know*/
         .font-every{font-size: 100px;}
         /*Culture*/
-        .img-cuture{width: 120rem; height:30rem;}
+        .img-cuture{height:30rem;}
         .font-img-c{font-size: 8rem;}
         .culture-text{font-size: 25px;}
         /*Place, Restaurants and Night Life links*/
