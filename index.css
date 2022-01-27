@@ -116,11 +116,12 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .font-every{font-size: 35px;}
     /*Culture*/
     .img-cuture{height:5rem;}
-    .font-img-c{font-size: 3rem;}
+    .font-img-c{font-size: 2.5rem;}
     .culture-text{font-size: 15px;}
     /*Place, Restaurants and Night Life links*/
+    .img-fish{background: repeat;}
     .p-img{height:20rem; width:80%; margin:auto;}
-    .font-img{font-size: 40px;}
+    .font-img{font-size: 35px;}
     .back .text{font-size: 15px;}
     /*Best time to go*/
     .font-img-best{font-size: 60px;}
