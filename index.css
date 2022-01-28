@@ -116,7 +116,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .font-img-c{font-size: 2.5rem; background-color: rgba(0, 0, 0, 0.493); width: 100%; height: 100%; padding: 20px;}
     .culture-text{font-size: 15px;}
     /*Place, Restaurants and Night Life links*/
-    .img-fish{background:none;}
+    .img-fish{background:repeat;}
     .p-img{height:20rem; width:80%; margin:20px;}
     .p-all{display: inline-block;}
     .font-img{font-size: 35px;}
