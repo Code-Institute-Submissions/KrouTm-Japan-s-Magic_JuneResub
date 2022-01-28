@@ -68,6 +68,9 @@ WHO ARE US?
 
 <>Contact.html
 
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/contact.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/contactmobile.PNG?raw=true)
+
 The contact part is pretty straightforward and I wish I had worked on it more with more time available.
 The appearance in this part of the site before being changed was totally different, confusing and not straightforward, that's what I had managed to do at the time, but I changed the way the items behave and I didn't have to do an extensive media query like in the <> index.css.
 All the links in this part are directed to a single page just so there are no broken links, because obviously the site does not exist, so of course there is no email called JapansMagic@ or the site's phone number or even an address, they are just to represent what it would be like if it had.
