@@ -1,7 +1,7 @@
 body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-025-eye-01_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a00d6c0f4d514aeb5fe93b069730c3); color:wheat; font-family: 'Cinzel Decorative', cursive;}
 html{scroll-behavior:smooth;}
 
-/*Link on top*/
+/*Navbar*/
 * {padding: 0; margin: 0; box-sizing: border-box;}
 a{text-decoration: none;}
 nav {background:rgba(37, 37, 37, 0.5); height: 80px; width: 100%; position: fixed; z-index: 3;}
@@ -22,6 +22,8 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 
 /*Everything you need to know*/
 .font-every{font-family: 'Cinzel Decorative', cursive; background-color: rgba(37, 37, 37, 0.5); width:100%; font-size:150px; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
+
+/*Angle - Down*/
 .style-angle{transition: all .5s; color:wheat; font-size:1em; width:100%; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; position:relative;}
 .style-angle:hover{color:rgba(245, 222, 179, 0.425); transform:translateY(10px);}
 
@@ -35,17 +37,19 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 /*Fish Background*/
 .img-fish{background:url(https://images.unsplash.com/photo-1504474298956-b1812fe43d92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80://as1.ftcdn.net/v2/jpg/04/34/90/38/1000_F_434903829_rRZdXOfo4kEV30Pm67JNFFQsWMTY5hMm.jpg) top/ cover fixed; width:100%; height:100%; display:inline-block;}
 
-/*Place, Restaurants and Night Life links*/
+/*Place, Restaurants and Nightlife links*/
 .img-place{background-image:url(https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80); background-position:center;}
 .img-food{background-image:url(https://images.unsplash.com/photo-1535007813616-79dc02ba4021?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80); background-position:center;}
 .img-night{background-image:url(https://images.unsplash.com/photo-1514362453360-8f94243c9996?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1965&q=80); background-position:bottom;}
 
+/*Details of image (Place, Restaurants and Night Life links) size and position...*/
 .p-img{background-size:cover; height:40rem; width:35rem; display:inline-block; margin: 100px 50px;}
 .p-all{width:100%; height:100%; position:relative; text-align:center; display: inline-flex; justify-content: center; align-items: center;}
 .title{position: relative; top:10%; transition: all .5s;}
 .title:hover{color: rgba(245, 222, 179, 0.5);}
 .font-img{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 70px;}
 
+/*This is the part where the users hover the mouse on "Place, Restaurants and Night Life links" and you can see the text*/
 .back{width:100%; height:100%; transition:all 0.8s;}
 .back .text{font-family:'Quicksand', sans-serif; font-size:25px; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(150px); opacity:0; transition:all .8s;}
 .back:hover{background-color:rgba(0, 0, 0, 0.5);}
@@ -57,6 +61,7 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 .img-spring{background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61851956-wikimedia-image.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=bf5d163e54118718c7af2e6717358314); background-size:cover; background-repeat:no-repeat; background-position:center;}
 .img-autumn{background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/wk67994743-image-kp6alk84.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=2bd8932bd3742978eb2d98de751582ee); background-size:cover; background-repeat:no-repeat; background-position:center;}
 
+/*Details of image (Best time to go) size and position...*/
 .size-img{width:100%; height:50vh;}
 .block{display: flex; text-align: center; margin-top: 12vh; margin-bottom: 12vh;}
 .font-img-best{width:100%; text-align:center; position: absolute; display: table; margin-top: 20vh; color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 220px; transition: all .5s;}
@@ -65,6 +70,8 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 /*Who are us?*/
 .img-who{background-image:url(https://images.pexels.com/photos/1494077/pexels-photo-1494077.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size:cover; background-position:center; background-repeat:no-repeat;}
 .main{display:flex; width:100%; height:80vh;}
+
+/*Is where users can hover the mouse on and see the text "about us"*/
 .card{width:50%; height:80%; margin:10%; margin-top: 5vh; transition:all 2s;}
 .heading{position:relative; top:7vh; transition:all 8s;}
 .card .heading{text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:100px; text-align:center; transform:translateY(100px); transition:all .8s;}
@@ -137,7 +144,6 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){ 
-    
     /*Every thing you need to know*/
     .font-every{font-size: 50px;}
     /*Culture*/
