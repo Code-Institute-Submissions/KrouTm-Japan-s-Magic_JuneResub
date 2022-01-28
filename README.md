@@ -16,7 +16,7 @@ NAVBAR
 
 ![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/navbar.PNG?raw=true)
 ![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/navbarmobible.PNG?raw=true)
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/navbarmobible0.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/navbarmobile0.PNG?raw=true)
 
 - The navbar is fixed at the top so that the user always has access to it even at the bottom of the page, so the user doesn't need to go back to the top of the page to access another page available in the navbar.
 - The navbar is responsive, so that users of smaller screens do not have difficulties using it, when the screen is smaller than 1024px, the navbar format changes and the bar options become horizontal, so the options are more readable.
