@@ -2,15 +2,15 @@
 
 <>index.html
 
-The main page and Contact.html are the only pages in operation, the others are just blank pages, these pages were just created so that you wouldn't hear broken links. I tried to make the site as responsive as possible within my knowledge and research.
-- The site is available for 7 different sizes of screens, from cell phones to larger screens such as a full hd tv.
+The main page and Contact.html are the only pages in operation, the others are just blank pages, the pages were created so that there were no broken links. I tried to make the site as responsive as possible within my knowledge and research.
+- The site is available for 7 different sizes of screens, from cell phones to larger screens such as a full HD TV.
 - The site has enough large and colorful images to catch the user's attention, most of the descriptions only appear when the mouse is over the images.
 
 LOGO
 
 ![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/logo.PNG?raw=true)
 
-- The logo is quite simple, if I had more time I would have designed something myself just to simulate something more realistic as a real logo would look like. But for now I just wrote the name of the site with a red circle representing the flag of Japan.
+- The logo is quite simple, how you can see it, if I had more time I would have designed something myself just to simulate something more realistic as a real logo would look like. But for now I just wrote the name of the site with a red circle representing the flag of Japan.
 
 NAVBAR
 
@@ -65,6 +65,7 @@ WHO ARE US?
 
 
 - The user needs to acquire confidence, so in this part I left a beautiful natural image of Japan, when the mouse is hovered over the phrase "Who are us?", the user can read the description of us and what we are willing to offer.
+- To make this more readable on cell phones or tablets, I removed the margin of the .card so that it could take up more space on the screen.
 
 <>Contact.html
 
