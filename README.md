@@ -8,22 +8,22 @@ The main page and Contact.html are the only pages in operation, the others are j
 
 LOGO
 
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/logo.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/logo.PNG?raw=true)
 
 - The logo is quite simple, how you can see it, if I had more time I would have designed something myself just to simulate something more realistic as a real logo would look like. But for now I just wrote the name of the site with a red circle representing the flag of Japan.
 
 NAVBAR
 
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/navbar.PNG?raw=true)
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/navbarmobible.PNG?raw=true)
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/navbarmobile0.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/navbar.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/navbarmobible.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/navbarmobile0.PNG?raw=true)
 
 - The navbar is fixed at the top so that the user always has access to it even at the bottom of the page, so the user doesn't need to go back to the top of the page to access another page available in the navbar.
 - The navbar is responsive, so that users of smaller screens do not have difficulties using it, when the screen is smaller than 1024px, the navbar format changes and the bar options become horizontal, so the options are more readable.
 
 EVERY THING YOU NEED TO KNOW & BACKGORUND IMAGE
 
-![alt text](https://raw.githubusercontent.com/KrouTm/Japan-s-Magic/23b6d625cb4bda4b7d03093036407cb3d7d918d3/every.PNG)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/every.PNG?raw=true)
 
 - I wanted to put an inviting phrase that brings confidence to the user while expressing what the site is about, a site where people can get information about the place.
 - The entrance to the site is simple, delicate and all the elements in the navbar or phrases that needed to be placed are simple and transparent so as not to distract from the beauty that the image of the place brings.
@@ -31,8 +31,8 @@ EVERY THING YOU NEED TO KNOW & BACKGORUND IMAGE
 
 CULTURE
 
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/culture.PNG?raw=true)
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/culturemobile.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/culture.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/culturemobile.PNG?raw=true)
 
 
 - In this part of the site, I describe a little about the essence of Japanese culture and the user can also have more information when clicking on the link.
@@ -41,8 +41,8 @@ CULTURE
 
 PLACE, RESTAURANT & NIGHT LIFE
 
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/place.PNG?raw=true)
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/placemobible.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/place.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/placemobible.PNG?raw=true)
 
 
 - This is the part where the user looks for information about his trip to japan, in order to provide information on restaurants, bars and tourist attractions.
@@ -51,23 +51,23 @@ PLACE, RESTAURANT & NIGHT LIFE
 
 BEST TIME TO GO
 
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/besttimetogo.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/besttimetogo.PNG?raw=true)
 
 - As the name says, in this part of the site the user must access the link and understand that each time of year has an advantage and will be guided to the available options of the time.
 - There's not much hype here, just three different stations splitting the space evenly on the screen for a prettier look, couldn't think of a better way to represent that.
 
 WHO ARE US?
 
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/who.PNG?raw=true)
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/whomobile.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/who.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/whomobile.PNG?raw=true)
 
 - The user needs to acquire confidence, so in this part I left a beautiful natural image of Japan, when the mouse is hovered over the phrase "Who are us?", the user can read the description of us and what we are willing to offer.
 - To make this more readable on cell phones or tablets, I removed the margin of the .card so that it could take up more space on the screen.
 
 <>Contact.html
 
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/contact.PNG?raw=true)
-![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/contactmobile.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/contact.PNG?raw=true)
+![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/README.images/contactmobile.PNG?raw=true)
 
 The contact part is pretty straightforward and I wish I had worked on it more with more time available.
 The appearance in this part of the site before being changed was totally different, confusing and not straightforward, that's what I had managed to do at the time, but I changed the way the items behave and I didn't have to do an extensive media query like in the <> index.css.
