@@ -158,6 +158,7 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
     .card{width:100%; height:100%; margin:auto}     
     .card .heading{font-size:45px; transform:translateY(50px);}
     .card .text{font-size: 20px;}
+    /*Contact*/
     .p-sign{width:30rem;}
 }
 
