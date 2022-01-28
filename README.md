@@ -45,7 +45,6 @@ PLACE, RESTAURANT & NIGHT LIFE
 ![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/placemobible.PNG?raw=true)
 
 
-
 - This is the part where the user looks for information about his trip to japan, in order to provide information on restaurants, bars and tourist attractions.
 - When used on cell phones or tablets with 320px - 768px resolution, the images of Place, Restaurant and Night Life are placed on top of each other, so the image and description are not too small to spoil the user experience in receiving the information.
 - The descriptions of the images appear only when the mouse is hovered over the images, so the user can feel the interaction with the site.
@@ -54,7 +53,6 @@ BEST TIME TO GO
 
 ![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/besttimetogo.PNG?raw=true)
 
-
 - As the name says, in this part of the site the user must access the link and understand that each time of year has an advantage and will be guided to the available options of the time.
 - There's not much hype here, just three different stations splitting the space evenly on the screen for a prettier look, couldn't think of a better way to represent that.
 
@@ -62,7 +60,6 @@ WHO ARE US?
 
 ![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/who.PNG?raw=true)
 ![alt text](https://github.com/KrouTm/Japan-s-Magic/blob/main/whomobile.PNG?raw=true)
-
 
 - The user needs to acquire confidence, so in this part I left a beautiful natural image of Japan, when the mouse is hovered over the phrase "Who are us?", the user can read the description of us and what we are willing to offer.
 - To make this more readable on cell phones or tablets, I removed the margin of the .card so that it could take up more space on the screen.
