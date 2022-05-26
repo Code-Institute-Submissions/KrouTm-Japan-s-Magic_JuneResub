@@ -1,38 +1,49 @@
-body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-025-eye-01_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a00d6c0f4d514aeb5fe93b069730c3); color:wheat; font-family: 'Cinzel Decorative', cursive;}
+body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-025-eye-01_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a00d6c0f4d514aeb5fe93b069730c3);}
 html{scroll-behavior:smooth;}
+* {padding: 0; margin: 0; text-decoration: none; box-sizing: border-box; font-size: xx-large; font-family: 'Cinzel Decorative', cursive; color: white;}
 
 /*Navbar*/
-* {padding: 0; margin: 0; box-sizing: border-box;}
-a{text-decoration: none;}
-nav {background:rgba(37, 37, 37, 0.5); height: 80px; width: 100%; position: fixed; z-index: 3;}
-nav ul {float: right; margin-right: 2vh;}
-nav ul li {display: inline-block; line-height: 80px; margin: 0 1vh;}
-nav ul li a {color: wheat; font-size: 25px; padding: 25px; transition: all .8s; font-family:'Quicksand', sans-serif;}
-nav ul li a:hover {background-color:rgba(245, 222, 179, 0.2); padding-left: 40px; padding-right: 40px;}
-.checkbtn {font-size: 30px; color: wheat; float: right; line-height: 80px; margin-right: 40px; cursor: pointer; display: none;}
+nav {background-color: rgba(80, 80, 80, 0.5); height: fit-content; position: fixed; width: 100%; z-index: 100;}
+nav ul {float: right; margin-right: 1rem;}
+nav ul li {display: inline-block;}
+nav ul li a {line-height: 3rem; margin: 0 1rem; transition: all .5s; font-family:'Quicksand', sans-serif;}
+nav ul li a:hover {color: brown; padding: 0.5rem; border: solid 2px brown; font-weight: bolder;}
+.checkbtn {float: right; margin-right: 1.5rem; cursor: pointer; display: none;}
+.checkbtn i{font-size: 2rem; line-height: 3rem; color: brown;}
 #check {display: none;}
 
-/*Japan's Magic*/
-label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
-.header-back{background-color:rgba(255, 0, 34, 0.5); width:60px; height:60px; border-radius:50%; position:relative; display: inline-block; left:30px; top:10px; text-align:center;}
+/*Logo*/
+.logo img{width: 3rem; margin: 0 1rem; height: auto; position: relative; top: 0.3rem;}
+
+@media (max-width: 768px){
+	.checkbtn {display: block;}
+	ul{position: fixed; width: 100%; height: 100vh; background-color:rgba(0, 0, 0, 0.7); top: 3.3rem; left: -100%; text-align: center; transition: all .5s;}
+	nav ul li{display: block; margin: 1rem 0; line-height: 1rem;}
+	#check:checked ~ ul {left: 0;}
+}
 
 /*Background Sakura*/
-.section{position:relative; height:100vh; width:100%; display: flex; margin:0; overflow:hidden;}
+.sakura{position:relative; height:100vh; width:100%; display: flex; margin:0; overflow:hidden;}
 .img-sakura{background-image: url(https://images.unsplash.com/photo-1575360986312-6de988f11479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-position: bottom; background-repeat: no-repeat; background-size:cover; position:absolute; height:100vh; width:100%;}
 
 /*Everything you need to know*/
-.font-every{font-family: 'Cinzel Decorative', cursive; background-color: rgba(37, 37, 37, 0.5); width:100%; font-size:150px; position:relative; text-align:center; margin:auto; z-index:1; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em;}
+.sakura h1{font-family:'Quicksand', sans-serif; font-size: 3.5rem; text-shadow: 0 0.5rem 0.5rem black; top: -2rem; left: 2rem; width: 100%; position: relative; text-align: left; display: flex; align-items: center; color: white;}
 
 /*Angle - Down*/
-.style-angle{transition: all .5s; color:wheat; font-size:1em; width:100%; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; position:relative;}
-.style-angle:hover{color:rgba(245, 222, 179, 0.425); transform:translateY(10px);}
+.sakura a{width: 100%; display: block; justify-content: center;}
+.sakura a i{font-size: 5rem; transition: all .5s; position: absolute; bottom: 2rem;}
+.sakura a i:hover{color: rgba(165, 42, 42, 0.5); transform:translateY(0.5rem);}
 
 /*Culture*/
-.img-cuture{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-size: cover; background-repeat:no-repeat; background-position:center; width:150rem; height:40rem; border-radius: 0px 50% 50% 0px ;}
-.font-img-c{color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 200px; text-decoration:none; margin: 2rem; transition: all .5s;}
-.culture-text{font-family:'Quicksand', sans-serif; font-size: 25px; width: 100%;}
-.block0{display: flex; background-color: rgba(255, 255, 255, 0.2); margin-top:12vh; margin-bottom:12vh;}
-.font-img-c:hover{color: rgba(245, 222, 179, 0.5);}
+.culture{justify-content: center; margin: auto; left: 0; right: 0; width: 100%; position: relative;}
+.img-culture{background-image: url(https://images.unsplash.com/photo-1581849803598-4326143e5557?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073); background-size: cover; background-position: center; width: 25rem; height: 25rem; border-radius: 50%; margin: auto;}
+.culture a{top: 50%; transform: translate(0, -50%); position: absolute; width: 25rem; padding: 0 2rem; text-align: center;}
+.culture h1{font-size: 2rem; color: brown;}
+.culture p{font-family:'Quicksand', sans-serif; font-size: 0.7rem;}
+
+/*Best time to go*/
+.img-time{display: grid; grid-template-columns: repeat(3,1fr);}
+.img-time img{width: 100%; height: auto;}
 
 /*Fish Background*/
 .img-fish{background:url(https://images.unsplash.com/photo-1504474298956-b1812fe43d92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80://as1.ftcdn.net/v2/jpg/04/34/90/38/1000_F_434903829_rRZdXOfo4kEV30Pm67JNFFQsWMTY5hMm.jpg) top/ cover fixed; width:100%; height:100%; display:inline-block;}
@@ -56,16 +67,7 @@ label.logo {color:white; font-size: 40px; line-height: 80px; margin-left: 30px;}
 .back:hover .text{transform:translateY(50px);}
 .back:hover .text, .back:hover{opacity:1;}
 
-/*Best time to go*/
-.img-winter{background-image: url(https://images.unsplash.com/photo-1639084546254-49863248a466?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80); background-size:cover; background-repeat:no-repeat; background-position:center;}
-.img-spring{background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61851956-wikimedia-image.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=bf5d163e54118718c7af2e6717358314); background-size:cover; background-repeat:no-repeat; background-position:center;}
-.img-autumn{background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/wk67994743-image-kp6alk84.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=2bd8932bd3742978eb2d98de751582ee); background-size:cover; background-repeat:no-repeat; background-position:center;}
 
-/*Details of image (Best time to go) size and position...*/
-.size-img{width:100%; height:50vh;}
-.block{display: flex; text-align: center; margin-top: 12vh; margin-bottom: 12vh;}
-.font-img-best{width:100%; text-align:center; position: absolute; display: table; margin-top: 20vh; color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 220px; transition: all .5s;}
-.font-img-best:hover{color: rgba(245, 222, 179, 0.5);}
 
 /*Who are us?*/
 .img-who{background-image:url(https://images.pexels.com/photos/1494077/pexels-photo-1494077.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size:cover; background-position:center; background-repeat:no-repeat;}
@@ -112,148 +114,27 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 
 /*320px — 480px: Mobile devices*/
 @media (min-width:320px) and (max-width:480px){
-    /*Japan's Magic*/
-    label.logo {font-size: 20px; line-height: 80px;}
-    .header-back{width:30px; height:30px;}
-    /*Every thing you need to know*/
-    .font-every{font-size: 35px;}
-    /*Culture*/
-    .img-cuture{background: none; width:100%; height: 100%; position: absolute; border-radius: 0; z-index: -1;}
-    .block0{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-position: bottom; background-repeat: no-repeat; background-size: cover;}
-    .font-img-c{font-size: 2.5rem; background-color: rgba(0, 0, 0, 0.493); width: 100%; height: 100%; padding: 20px;}
-    .culture-text{font-size: 15px;}
-    /*Place, Restaurants and Night Life links*/
-    .img-fish{background-repeat: repeat-y;}
-    .p-img{height:20rem; width:80%; margin:20px;}
-    .p-all{display: inline-block;}
-    .font-img{font-size: 35px;}
-    .back .text{font-size: 15px;}
-    /*Best time to go*/
-    .font-img-best{font-size: 60px;}
-    .size-img{height:20rem;}
-    /*Who are us?*/
-    .card{width:100%; height:100%; margin:auto}     
-    .card .heading{font-size:35px; transform:translateY(50px);}
-    .card .text{font-size: 15px;}
-    /*Contact*/
-    .font-contact{font-size:3em;}
-    .p-social{font-size:2em;}
-    .social{padding-right: 0.5rem; padding-left: 0.5rem;}
-    .p-sign{padding:1em; width:20rem;}
+    *{font-size: small;}
 }
 
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){ 
-    /*Every thing you need to know*/
-    .font-every{font-size: 50px;}
-    /*Culture*/
-    .img-cuture{background: none; width:100%; height: 100%; position: absolute; border-radius: 0; z-index: -1;}
-    .block0{background-image:url(https://images.unsplash.com/photo-1523287957-02e201f6faa1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80); background-position: bottom; background-repeat: no-repeat; background-size: cover;}
-    .font-img-c{font-size: 4rem; background-color: rgba(0, 0, 0, 0.493); width: 100%; height: 100%; padding: 20px;}
-    .culture-text{font-size: 20px;}
-    /*Place, Restaurants and Night Life links*/
-    .img-fish{background-repeat: repeat-y;}
-    .p-img{height:30rem; width:80%; margin: 20px;}
-    .p-all{display: inline-block;}
-    .font-img{font-size: 50px;}
-    .back .text{font-size: 20px;}
-    /*Best time to go*/
-    .font-img-best{font-size: 90px;}
-    .size-img{height:20rem;}
-    /*Who are us?*/
-    .card{width:100%; height:100%; margin:auto}     
-    .card .heading{font-size:45px; transform:translateY(50px);}
-    .card .text{font-size: 20px;}
-    /*Contact*/
-    .p-sign{width:30rem;}
+    *{font-size: medium;}
 }
 
 /*769px — 1024px: Small screens, laptops*/
 @media (min-width:769px) and (max-width:1024px){
-    /*Every thing you need to know*/
-    .font-every{font-size: 80px;}
-    /*Culture*/
-    .img-cuture{height:20rem;}
-    .font-img-c{font-size: 5rem;}
-    .culture-text{font-size: 20px;}
-    /*Place, Restaurants and Night Life links*/
-    .p-img{margin: 40px 4px;}
-    .p-img{height:25rem; width:15rem;}
-    .font-img{font-size: 30px;}
-    .back .text{font-size: 17px;}
-    /*Best time to go*/
-    .font-img-best{font-size: 85px;}
-    .size-img{height:20rem;}    
-    /*Who are us?*/
-    .card{width:80%; height:80%; margin:auto; margin-top: 5%;}
-    .card .heading{font-size:60px;}
-    .card .text{font-size: 20px;}
+    *{font-size: large;}
 }
 
 /*1025px — 1200px: Desktops, large screens*/
 @media (min-width:1025px) and (max-width:1200px){
-        /*Every thing you need to know*/
-        .font-every{font-size: 90px;}
-        /*Culture*/
-        .img-cuture{height:25rem;}
-        .font-img-c{font-size: 7rem;}
-        .culture-text{font-size: 20px;}
-        /*Place, Restaurants and Night Life links*/
-        .p-img{margin: 40px 4px;}
-        .p-img{height:30rem; width:20rem;}
-        .font-img{font-size: 40px;}
-        .back .text{font-size: 22px;}
-        /*Best time to go*/
-        .font-img-best{font-size: 110px;}
-        .size-img{height:25rem;}        
-        /*Who are us?*/
-        .card{width:80%; height:80%; margin:auto; margin-top: 5%;}
-        .card .heading{font-size:80px;}
-        .card .text{font-size: 25px;}
+    *{font-size: large;}
 }
 
 /*1201px — 1500px: Extra large screens, TV*/
 @media (min-width:1201px) and (max-width:1500px){
-        /*Every thing you need to know*/
-        .font-every{font-size: 100px;}
-        /*Culture*/
-        .img-cuture{height:30rem;}
-        .font-img-c{font-size: 8rem;}
-        .culture-text{font-size: 25px;}
-        /*Place, Restaurants and Night Life links*/
-        .p-img{margin: 40px 4px;}
-        .p-img{height:30rem; width:24rem;}
-        .font-img{font-size: 50px;}
-        .back .text{font-size: 25px;}
-        /*Best time to go*/
-        .font-img-best{font-size: 130px;}
-        .size-img{height:25rem;}
-        /*Who are us?*/
-        .card{width:80%; height:80%; margin:auto; margin-top: 5%;}
-        .card .heading{font-size:80px;}
-        .card .text{font-size: 25px;}
-}
-/*1501 — 1920px*/
-@media (min-width:1501px) and (max-width:1920px){
-        /*Every thing you need to know*/
-        .font-every{font-size: 130px;}
-        /*Culture*/
-        .font-img-c{font-size: 10rem;}
-        /*Place, Restaurants and Night Life links*/
-        .p-img{margin: 50px 10px;}
-        .p-img{height:30rem; width:30rem;}
-        .font-img{font-size: 60px;}
-        .back .text{font-size: 25px;}
-        /*Best time to go*/
-        .font-img-best{font-size: 160px;}
-        .size-img{height:25rem;}
+    *{font-size: x-large;}
 }
 
-@media (max-width: 1024px){
-	.checkbtn {display: block;}
-	ul{position: fixed; width: 100%; height: 100vh; background-color:rgba(0, 0, 0, 0.7); top: 80px; left: -100%; text-align: center; transition: all .5s;}
-	nav ul li{display: block; margin: 30px 0; line-height: 80px;}
-	nav ul li a {font-size: 20px;}
-	a:hover, a.active {background: none; color: white;}
-	#check:checked ~ ul {left: 0;}
-}
+

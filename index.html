@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <title>Japan's Magic</title>
         <style>
@@ -15,31 +16,34 @@
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
+                <i class="las la-bars"></i>
             </label>
-            <!--Japan's Magic-->
-            <label class="header-back"></label><label class="logo">Japan's Magic</label>
+            <!--Logo-->
+            <a href="index.html" class="logo"><img src="Pictures/Logo.png"></a>
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="HTML/Contact.html">Contact</a></li>
             </ul>
         </nav>
 
         <!--Background Sakura-->
-        <div class="section">
+        <div class="sakura">
             <div class="img-sakura"></div>
             <!--Everything you need to know-->
-            <div class="font-every">Everything you need to know<a href="#down">
-                <!--Angle - Down-->
-                <i class="fas fa-angle-down style-angle"></i></a>
-            </div>
+            <h1>Everything<br>You<br>Need to know</h1>
+            <!--Angle - Down-->
+            <a href="#down"><i class="las la-angle-down"></i></a>
         </div>
         
         <!--Culture-->
-        <div class="block0" id="down">
-            <div class="img-cuture"></div>
-            <a href="Culture.html" class="font-img-c">Culture<p class="culture-text">Valuable. This is how Japanese culture can be defined. The age-old traditions and healthy cuisine are two aspects that are much admired by tourists from all over the world, especially those who visit Japan on vacation or for longer seasons. Much of the Japanese education and intelligence can be explained if we look at the history of a people who knew how to reinvent themselves several times, but who always knew how to respect their elders and value what is new.</p></a>
+        <div class="culture" id="down">
+            <div class="img-culture">
+                <a href="HTML/Culture.html" class="font-img-c">
+                    <h1>Culture</h1>
+                    <p>Valuable. This is how Japanese culture can be defined. The age-old traditions and healthy cuisine are two aspects that are much admired by tourists from all over the world, especially those who visit Japan on vacation or for longer seasons. Much of the Japanese education and intelligence can be explained if we look at the history of a people who knew how to reinvent themselves several times, but who always knew how to respect their elders and value what is new.</p>
+                </a>
+            </div>
         </div>
 
         <!--Fish Background-->
@@ -48,21 +52,21 @@
                 <!--Place-->     
                 <div class="img-place p-img">
                     <div class="back">
-                        <a href="Places.html" class="font-img title">Places</a>
+                        <a href="HTML/Places.html" class="font-img title">Places</a>
                         <p class="text">Between beauty, technology, nature and peace, Japan manages to bring it all together in one country, as soon as you step on Japanese soil you can feel peace and harmony.</p>
                     </div>
                 </div>
                 <!--Restaurants-->
                 <div class="img-food p-img">
                     <div class="back">
-                        <a href="Restaurant.html" class="font-img title">Restaurants</a>
+                        <a href="HTML/Restaurant.html" class="font-img title">Restaurants</a>
                         <p class="text">Japanese cuisine is not just about raw fish and ramen, you will be able to eat things you never thought possible to prepare or even be surprised by the huge variety of foods.</p>
                     </div>
                 </div>
                 <!--Nightlife-->
                 <div class="img-night p-img">
                     <div class="back">
-                        <a href="Nightlife.html" class="font-img title">Nightlife</a>
+                        <a href="HTML/Nightlife.html" class="font-img title">Nightlife</a>
                         <p class="text">If you are looking for a busy night, the indication is that you are in big cities like Tokyo, Osaka, Nagoya... but if you want a good night's sleep, you can opt for the smaller cities, after 10pm I guarantee you won't hear any sound. from cars, horns or any type of noise pollution</p>
                     </div>
                 </div>
@@ -70,22 +74,23 @@
         </div>
 
         <!--Best time to go-->
-        <div class="filter"><a href="Besttimetogo.html" class="font-img-best">Best time to go</a></div>
-        <div class="block">
-            <div class="img-spring size-img"></div>
-            <div class="img-autumn size-img"></div>
-            <div class="img-winter size-img"></div>
+        <div class="img-time">
+            <img src="https://images.unsplash.com/photo-1639084546254-49863248a466?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80">
+            <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61851956-wikimedia-image.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=bf5d163e54118718c7af2e6717358314">
+            <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/wk67994743-image-kp6alk84.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=2bd8932bd3742978eb2d98de751582ee">
         </div>
 
         <!--Who are us?-->
         <div class="main" id="about">
             <div class="img-who">
                 <div class="card center">
-                <p class="heading">Who are us?</p>
-                <p class="text">For love, admiration, and recognition. We made an exclusive site for Japan so that everyone who has the opportunity to visit it can witness the beauty. Japan is a place of endless discoveries. You can spend your life exploring the country and still not see all the riches. That's why we're here, we've handpicked all the restaurants, bars, cafes, tourist spots, and everything else just to make your life easier. We know how difficult it is to get organized and know where to go and what to see, so we have everything prepared so that you can make your trip peacefully without feeling like you're missing something.</p>
+                    <p class="heading">Who are us?</p>
+                    <p class="text">For love, admiration, and recognition. We made an exclusive site for Japan so that everyone who has the opportunity to visit it can witness the beauty. Japan is a place of endless discoveries. You can spend your life exploring the country and still not see all the riches. That's why we're here, we've handpicked all the restaurants, bars, cafes, tourist spots, and everything else just to make your life easier. We know how difficult it is to get organized and know where to go and what to see, so we have everything prepared so that you can make your trip peacefully without feeling like you're missing something.</p>
                 </div>
             </div>  
         </div>
-
+        
+        <div id="app"></div>
+        <script src="ProjectZ.js"></script>
     </body>
 </html>
