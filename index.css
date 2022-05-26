@@ -36,15 +36,11 @@ nav ul li a:hover {color: brown; padding: 0.5rem; border: solid 2px brown; font-
 
 /*Culture*/
 .culture{justify-content: center; margin: auto; left: 0; right: 0; width: 100%; position: relative;}
-.img-culture{background-image: url(https://images.unsplash.com/photo-1609072592251-02253b94331c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1926&q=80); background-size: cover; background-position: center; width: 25rem; height: 25rem; border-radius: 50%; margin: auto;}
-.culture a{top: 15%; position: absolute; width: 25rem; padding: 0 2rem; text-align: center;}
+.img-culture{background-image: url(https://images.unsplash.com/photo-1609072592251-02253b94331c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1926&q=80); background-size: cover; background-position: center; width: 25rem; height: 25rem; border-radius: 50%; margin: auto; justify-content: center; display: flex;}
+.culture a{top: 8%; position: absolute; width: 18rem; text-align: center;}
 .culture h1{font-size: 2rem; color: brown;}
-.culture p{font-family:'Quicksand', sans-serif; font-size: 0.7rem; transition: all .5s;}
+.culture p{font-family:'Quicksand', sans-serif; font-size: 0.8rem; transition: all .5s;}
 .culture p:hover{color: wheat;}
-
-/*Best time to go*/
-.img-time{display: grid; grid-template-columns: repeat(3,1fr);}
-.img-time img{width: 100%; height: auto;}
 
 /*Fish Background*/
 .img-fish{background:url(https://images.unsplash.com/photo-1504474298956-b1812fe43d92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80://as1.ftcdn.net/v2/jpg/04/34/90/38/1000_F_434903829_rRZdXOfo4kEV30Pm67JNFFQsWMTY5hMm.jpg) center/ cover fixed; width: 100%; height: 100%;}
@@ -57,31 +53,36 @@ nav ul li a:hover {color: brown; padding: 0.5rem; border: solid 2px brown; font-
 
     /*Details of image (Place, Restaurants and Night Life links) size and position...*/
     .p-img{background-size: cover; height: 17rem; width: 90%; margin: 3rem auto;}
-    .back h1{position: relative; top: 10%; transition: all .5s; color:wheat; text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size: 2rem; font-weight: lighter;}
+    .back h1{position: relative; top: 10%; transition: all .5s; color: wheat; font-size: 2rem; font-weight: lighter;}
     .back a:hover{color: rgba(245, 222, 179, 0.5);}
 
     /*This is the part where the users hover the mouse on "Place, Restaurants and Night Life links" and you can see the text*/
     .back{width: 100%; height: 100%; transition: all 0.8s;}
-    .back .text{font-family: 'Quicksand', sans-serif; font-size: 25px; color: rgb(255, 204, 110); margin: 5% 5%; transform: translateY(150px); opacity: 0; transition: all .8s;}
+    .back .text{font-family: 'Quicksand', sans-serif; font-size: 0.8rem; color: rgb(255, 204, 110); margin: 5% 5%; transform: translateY(5rem); opacity: 0; transition: all .8s;}
     .back:hover{background-color: rgba(0, 0, 0, 0.5);}
-    .back:hover .text{transform: translateY(50px);}
+    .back:hover .text{transform: translateY(0rem);}
     .back:hover .text, .back:hover{opacity: 1;}
 
-
+/*Best time to go*/
+.all-best-time{margin: 4rem 0;}
+.all-best-time h1{font-size: 3rem; font-weight: lighter; text-align: right; padding-right: 2rem;}
+.img-time h1{color: wheat; font-weight: lighter; font-size: 4rem; text-align: center;}
+.img-time{display: grid; grid-template-columns: repeat(3,1fr);}
+.img-time img{width: 100%; height: auto; filter: contrast(110%);}
 
 /*Who are us?*/
 .img-who{background-image:url(https://images.pexels.com/photos/1494077/pexels-photo-1494077.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size:cover; background-position:center; background-repeat:no-repeat;}
-.main{display:flex; width:100%; height:80vh;}
+.main{display: flex; width: 100%; height: 100%;}
 
-/*Is where users can hover the mouse on and see the text "about us"*/
-.card{width:50%; height:80%; margin:10%; margin-top: 5vh; transition:all 2s;}
-.heading{position:relative; top:7vh; transition:all 8s;}
-.card .heading{text-shadow:rgb(43, 26, 21) 0.1em 0.1em 0.1em; font-size:100px; text-align:center; transform:translateY(100px); transition:all .8s;}
-.card .text{font-family:'Quicksand', sans-serif; font-size:25px; color:rgb(255, 204, 110); margin:5% 5%; transform:translateY(100px); opacity:0; transition:all .8s;}
-.card:hover{background-color:rgba(0, 0, 0, 0.37);}
-.card:hover .heading{transform:translateY(-15px);}
-.card:hover .text{transform:translateY(30px);}
-.card:hover .text, .card:hover{opacity:1;}
+    /*Is where users can hover the mouse on and see the text "about us"*/
+    .card{width: 50%; height: max-content; margin: 10%; margin-top: 2rem; transition: all 2s; padding: 2rem;}
+    .heading{position: relative; transition: all 8s;}
+    .card .heading{text-shadow: rgb(43, 26, 21) 0 0.3rem 0.3rem; color: brown; font-size: 3rem; text-align: center; transform: translateY(5rem); transition: all .8s;}
+    .card .text{font-family: 'Quicksand', sans-serif; font-size: 0.8rem; padding-top: 1rem; text-align: center; color: rgb(255, 204, 110); transform: translateY(5rem); opacity:0; transition: all .8s;}
+    .card:hover{background-color: rgba(0, 0, 0, 0.37);}
+    .card:hover .heading{transform: translateY(0rem); text-shadow: rgba(255, 255, 255, 0.5) 0 0.3rem 0.3rem;}
+    .card:hover .text{transform: translateY(0rem);}
+    .card:hover .text, .card:hover{opacity: 1;}
 
 /*Contact*/
 .contact{position:relative; width:100%; text-align:center; padding-top: 5rem;}
@@ -116,22 +117,18 @@ section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
 @media (min-width:320px) and (max-width:480px){
     *{font-size: small;}
 }
-
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){ 
     *{font-size: medium;}
 }
-
 /*769px — 1024px: Small screens, laptops*/
 @media (min-width:769px) and (max-width:1024px){
     *{font-size: large;}
 }
-
 /*1025px — 1200px: Desktops, large screens*/
 @media (min-width:1025px) and (max-width:1200px){
     *{font-size: large;}
 }
-
 /*1201px — 1500px: Extra large screens, TV*/
 @media (min-width:1201px) and (max-width:1500px){
     *{font-size: x-large;}
