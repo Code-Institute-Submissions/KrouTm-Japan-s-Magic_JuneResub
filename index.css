@@ -180,7 +180,7 @@ hr{display: block; width: 2rem; overflow: hidden; border-style: solid; border-wi
 @media (min-width:1201px) and (max-width:1500px){
     *{font-size: x-large;}
 }
-@media (max-width:768px){
+@media (min-width:481px) and (max-width:768px){
     .img-culture{border: solid 0.2rem brown;}
     .p-img{border: solid 0.2rem brown;}
     .img-who{border: solid 0.2rem brown;}
