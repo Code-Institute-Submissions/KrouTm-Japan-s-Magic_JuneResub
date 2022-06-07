@@ -1,3 +1,83 @@
+<p align="center"><img src="Pictures/logo.png" height="120px" width="120px"></p>
+
+**<p align="center">Everything you need to know about Japan</p>**
+
+[View the live project here.](https://kroutm.github.io/Japan-s-Magic/)
+<p align="center"><img src="screenshots/FireShot Capture 088 - Am I Responsive_ - ui.dev.png"></p>
+
+## User Experience (UX)
+
+-   ### User stories
+
+    -   #### First Time Visitor Goals
+    1. As a First Time Visitor, I want to immediately understand the intent of the site.
+    2. As a First Time Visitor, I want to view and navigate the website on all devices.
+    3. As a First Time Visitor, I want to have easy access to the websites pages.
+    4. As a First Time Visitor, I want to know if it is reliable and professional.
+    5. As a First Time Visitor, I want to have a good impression of the place, and feel supported.
+
+    -   #### Returning Visitor Goals
+    1. As a Returning Visitor, I want to be able to subscribe to receive communications or promotions.
+    2. As a Returning Visitor, I would like to be able to send messages or reviews to improve the establishment.
+
+    -   #### Frequent User Goals
+    1. As a Frequent User, I want to have news added.
+    2. As a Frequent User, I want to see improvements on the site but without changing the instinct, so it doesn't make me confused.
+    3. As a Frequent User, I want to feel stability and constancy in the changes.
+
+## Technologies used
+
+### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks Libraries and Programs
+
+1. [Google Fonts](https://fonts.google.com/)
+    - Google fonts were used to import the 'Cinzel Decorative' and 'Quicksand' fonts into the style.css file which is used on all pages throughout the project.
+1. [Line Awesome](https://icons8.com/line-awesome)
+    - I used the icons for decoration and social media links
+1. [Github](https://github.com/)
+    - Github was used to create and store the project repository.
+1. [Visual Studio Code](https://code.visualstudio.com/)
+    - Visual Studio Code was used to create my files and code the project.
+1. [Am I responsive](http://ami.responsivedesign.is/)
+    - Am I responsive was used to taking screenshots of the page at different screen sizes.
+1. [BlueTree](https://bluetree.ai/screenfly/)
+    - I used BlueTree to test the responsiveness and functionality of my website.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to Github. 
+1. [Unsplash](https://unsplash.com/)
+    - Pictures that I used on the website.
+1. [Coolors](https://coolors.co/)
+    - To get the website colors.
+
+-   ### Design
+    -   #### Colour Scheme
+        -   The colors used on this website were:
+        <img src="Pictures/Japan.png">
+
+    -   #### Typography
+        -   Quicksand was used for the titles and Cinzel Decorative was used for texts and descriptions.
+
+    -   #### Imagery
+        -   All the images used have great contrasts and subtly have the tones that were used on the site.
+
+## Features
+- The website is responsive on all device sizes.
+
+
+
+
+
+
+
+
+
+
+
 <>index.html
 
 The main page and Contact.html are the only pages in operation, the others are just blank pages, the pages were created so that there were no broken links. I tried to make the site as responsive as possible within my knowledge and research.
