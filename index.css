@@ -3,13 +3,14 @@ html{scroll-behavior:smooth;}
 *{padding: 0; margin: 0; text-decoration: none; box-sizing: border-box; font-weight: 100; font-size: xx-large; font-family: 'Cinzel Decorative', cursive; color: white;}
 
 /*Navbar*/
+header{position: fixed;}
 nav{background-color: rgba(80, 80, 80, 0.5); height: fit-content; position: fixed; width: 100%; z-index: 1000;}
 nav ul{float: right; margin-right: 1rem;}
 nav ul li{display: inline-block;}
 nav ul li a{line-height: 3rem; margin: 0 1rem; transition: all .5s; font-family:'Quicksand', sans-serif;}
 nav ul li a:hover{color: brown; padding: 0.5rem; border: solid 2px brown; font-weight: bolder;}
 .checkbtn{float: right; margin-right: 1.5rem; cursor: pointer; display: none;}
-.checktn i{font-size: 2rem; line-height: 3rem; color: brown;}
+.checkbtn i{font-size: 2.5rem; line-height: 3rem; color: brown;}
 #check {display: none;}
 
 /*Logo*/
@@ -97,33 +98,43 @@ hr{display: block; width: 2rem; overflow: hidden; border-style: solid; border-wi
 }
 
 /*Contact*/
-.contact{position:relative; width:100%; text-align:center; padding-top: 3rem;}
-.contact h1{color: brown; font-family: 'Cinzel Decorative', cursive; font-size: 4em;}
-.we-are-always{font-family:'Mitr', sans-serif; color:wheat;}
-#line{border: solid 1px rgb(255, 204, 110); width:100%; position:relative; display:inline-block; margin-top: 2rem; margin-bottom: 2rem;}
-#line2{border: solid 1px rgb(255, 204, 110); width:100%; position:relative; display:inline-block; margin-top: 2rem; margin-bottom: 2rem;}
+.contact{position:relative; width:100%; text-align:center; padding-top: 3.5rem;}
+.contact h1{color: brown; font-family: 'Cinzel Decorative', cursive; font-size: 3rem;}
+.contact p{font-family:'Mitr', sans-serif; font-size: 0.8rem;}
+#line{border: solid 1px brown; width:100%; position:relative; display:inline-block; margin: 1rem 0;}
+#line2{border: solid 1px brown; width:100%; position:relative; display:inline-block; margin: 1rem 0;}
+
+.p-sign{position:relative; border: brown solid 4px; padding: 2em; margin: auto; width: 35rem; text-align: left;}
+.p-sign h1{color:brown; text-transform: uppercase; font-family:'Mitr', sans-serif;}
+.p-sign p{font-family:'Mitr', sans-serif; font-size: 0.8rem;}
+.style-info{padding: 0.2rem; font-size: 0.8rem; font-family:'Mitr', sans-serif; background-color: rgba(165, 42, 42, 0.2); border-style: none; border-radius: 0.5rem; border: 3px solid rgba(165, 42, 42, 0.5);}
 
 /*Subscribe*/
-.p-sign{color:wheat; font-family:'Mitr', sans-serif; position:relative; border:rgb(255, 204, 110) solid 4px; padding:2em; margin: auto; width:40rem; text-align:left;}
-.style-stay{color:rgb(255, 204, 110); font-size: 1.5rem; text-transform: uppercase;}
-.style-sign{padding: 5px; font-size:1.2em; color:rgb(43, 26, 21); background-color: rgba(245, 222, 179, 0.233); border-style:none; border-radius:0.5rem; border:3px solid rgb(255, 204, 110);}
-.sign-up{margin: 0.5rem; font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); cursor: pointer; padding: 5px; border-style:none; border-radius: 0px 10px;}
+.sign-up{margin: 0.5rem; font-size: 0.8em; background-color: brown; cursor: pointer; padding: 0.4rem; border-style: none; border-radius: 0px 10px;}
 
 /*Message*/
+.p-sign textarea{width: 100%; height: 10rem;}
 .p-msg{position:relative; display: inline-block; margin-top: 20px;}
-.style{padding: 0.2rem; border-radius: 0.5rem; font-size:1.2em; font-family:'Mitr', sans-serif; color:wheat; background-color:rgba(245, 222, 179, 0.233); border-style:none; display:block; width:100%; border: solid 3px rgb(255, 204, 110);}
-.style-submit{font-size:1.5em; color:rgb(255, 204, 110); background-color:rgba(245, 222, 179, 0.281); border-style:none; border-radius: 0px 10px; position:relative; margin: auto; cursor: pointer; padding: 5px; width:100%;}
+.submit{font-size: 0.8rem; background-color:brown; border-style: none; border-radius: 0px 10px; position: relative; margin: auto; cursor: pointer; padding: 0.4rem; width: 100%;}
 
 /*Social Media*/
-.p-social{font-size:3em; text-align: center;}
-.social{color:rgb(255, 204, 110); padding-right: 1rem; padding-left: 1rem;}
-.social:hover{color:rgba(255, 204, 110, 0.507);}
+.p-social{text-align: center;}
+.p-social i{padding-right: 1rem; padding-left: 1rem; font-size: 2rem; transition: all .2s;}
+.p-social i:hover{color: brown;}
 
 /*Footer*/
-.hello{font-size:1rem; position:relative; color:wheat; font-family:'Mitr', sans-serif; text-align:left;}
-.color{color:rgb(255, 204, 110); padding: 15px; float:left;}
-section>div>a{color:wheat;}
-section>div>a:hover{color:rgba(255, 204, 110, 0.411);}
+.hello{display: grid; grid-template-columns: repeat(4,1fr); margin: 2rem auto;}
+
+.color{color: brown; display: grid; grid-template-columns: repeat(1,1fr);}
+.color h1{font-family:'Mitr', sans-serif; color: brown; text-transform: uppercase;}
+.color a{font-family:'Mitr', sans-serif; font-size: 0.8rem;}
+.color a:hover{color:rgba(255, 255, 255, 0.5);}
+.color i{color: brown; padding-right: 0.5rem;}
+
+@media (max-width:768px){
+    .p-sign{width: 90%;}
+    .hello{display: inline-table; width: 100%; text-align: center;}
+}
 
 /*320px — 480px: Mobile devices*/
 @media (min-width:320px) and (max-width:480px){
