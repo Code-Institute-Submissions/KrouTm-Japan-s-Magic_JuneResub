@@ -30,7 +30,7 @@ nav ul li a:hover{color: brown; padding: 0.5rem; border: solid 2px brown; font-w
 .sakura h1{font-family:'Quicksand', sans-serif; font-size: 3.5rem; text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.7); top: 6rem; left: 3rem; width: 100%; position: relative; text-align: left; align-items: center; color: white; text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);}
 
 @media (max-width:768px){
-    .sakura h1{color: brown; text-shadow: 0.1rem 0.1rem 0.1rem rgba(255, 255, 255, 0.7);}
+    .sakura h1{color: brown; font-size: 3rem; font-weight: bold; text-shadow: 0.1rem 0.1rem 0.1rem rgba(255, 255, 255, 0.7);}
 }
 
 /*Angle - Down*/
