@@ -68,6 +68,56 @@
 ## Features
 - The website is responsive on all device sizes.
 
+    ### Home Page
+    <p align="center"><img src="Pictures/screenshots/FireShot Capture 088 - Am I Responsive_ - ui.dev.png"></p>
+
+    - ### Navbar
+        <img src="Pictures/">
+
+        - dsj l djajs d kasjdlka j  lakjsd  lakjds
+        - dsj l djajs d kasjdlka j  lakjsd  lakjds
+
+    - ### Place, Restaurants & Nightlife
+        <img src="Pictures/">
+        <img width="200px" height="auto" src="Pictures/">
+
+        - dsj l djajs d kasjdlka j  lakjsd  lakjds
+
+    - ### About
+        <img src="screenshots/About.PNG">
+        <img src="screenshots/About0.PNG">
+
+        - The about section is a brief description of what the website is currently offering to the user.
+        - It is possible to see the text when the user hover over it.
+
+    ## Navbar
+    <img src="Pictures/Navbar.PNG">
+    <img width="200px" height="auto" src="Pictures/Navbar0.PNG">
+    
+    - Navbar is always available to the user.
+    - Simple and easily accessible.
+
+    ## Footer
+    <img src="Pictures/Footer.PNG">
+    <img width="200px" height="auto" src="Pictures/Footer0.PNG">
+
+    - dsj l djajs d kasjdlka j  lakjsd  lakjds
+
+
+## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [Markup Validation Service](https://validator.w3.org/)
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+## Credits
+
+[Website Logo](https://www.pngwing.com/en/free-png-bwsac)
++ I downloaded from this link.
+
+
+
+
 
 
 
