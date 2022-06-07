@@ -3,7 +3,6 @@ html{scroll-behavior:smooth;}
 *{padding: 0; margin: 0; text-decoration: none; box-sizing: border-box; font-weight: 100; font-size: xx-large; font-family: 'Cinzel Decorative', cursive; color: white;}
 
 /*Navbar*/
-header{position: fixed;}
 nav{background-color: rgba(80, 80, 80, 0.5); height: fit-content; position: fixed; width: 100%; z-index: 1000;}
 nav ul{float: right; margin-right: 1rem;}
 nav ul li{display: inline-block;}
