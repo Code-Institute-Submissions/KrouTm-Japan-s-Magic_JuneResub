@@ -1,4 +1,4 @@
-<p align="center"><img src="Pictures/logo.png" height="120px" width="120px"></p>
+<p align="center"><img src="Pictures/logo.PNG" height="120px" width="120px"></p>
 
 **<p align="center">Everything you need to know about Japan</p>**
 
