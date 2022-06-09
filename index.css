@@ -149,8 +149,8 @@ hr{display: block; width: 2rem; overflow: hidden; border-style: solid; border-wi
 .submit{font-size: 0.8rem; background-color:brown; border-style: none; border-radius: 0px 10px; position: relative; margin: auto; cursor: pointer; padding: 0.4rem; width: 100%;}
 
 /*Social Media*/
-.p-social{text-align: center;}
-.p-social i{padding-right: 1rem; padding-left: 1rem; font-size: 2rem; transition: all .2s;}
+.p-social{text-align: center; margin: 1rem 0;}
+.p-social i{padding: 1rem; font-size: 2rem; transition: all .2s;}
 .p-social i:hover{color: brown;}
 
 /*Footer*/
@@ -160,6 +160,11 @@ hr{display: block; width: 2rem; overflow: hidden; border-style: solid; border-wi
 .color a{font-family:'Mitr', sans-serif; font-size: 0.8rem; line-height: 1.5rem;}
 .color a:hover{color:rgba(255, 255, 255, 0.5);}
 .color i{color: brown; padding-right: 0.5rem;}
+
+@media (max-width:480px){
+    .contact h1{font-size: 2rem;}
+    .p-social i{font-size: 1.5rem; padding: 1rem 0.5rem;}
+}
 
 @media (max-width:768px){
     .p-sign{width: 90%;}
