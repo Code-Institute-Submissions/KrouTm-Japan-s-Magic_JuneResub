@@ -27,14 +27,14 @@ nav ul li a:hover{color: brown; padding: 0.5rem; border: solid 2px brown; font-w
 .img-sakura{background-image: url(https://images.unsplash.com/photo-1575360986312-6de988f11479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80); background-position: bottom; background-repeat: no-repeat; background-size:cover; position:absolute; height:100vh; width:100%;}
 
 /*Everything you need to know*/
-.sakura h1{font-family:'Quicksand', sans-serif; font-size: 3.5rem; text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.7); top: 6rem; left: 3rem; width: 100%; position: relative; text-align: left; align-items: center; color: white; text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);}
+.sakura h1{font-family:'Quicksand', sans-serif; font-size: 4rem; text-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.7); top: 6rem; left: 3rem; width: 100%; position: relative; text-align: left; align-items: center; color: white; text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);}
 
 @media (max-width:480px){
     .sakura h1{color: brown; font-size: 2rem; text-align: center; position: relative; left: 0; right: 0; margin: auto; font-weight: bold; text-shadow: 0.1rem 0.1rem 0.1rem rgba(255, 255, 255, 0.7);}
 }
 
 @media (min-width:481px) and (max-width:768px){
-    .sakura h1{color: brown; font-size: 3rem; font-weight: bold; text-shadow: 0.1rem 0.1rem 0.1rem rgba(255, 255, 255, 0.7);}
+    .sakura h1{color: brown; font-weight: bold; text-shadow: 0.1rem 0.1rem 0.1rem rgba(255, 255, 255, 0.7);}
 }
 
 /*Angle - Down*/
