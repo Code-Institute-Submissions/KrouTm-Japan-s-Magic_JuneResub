@@ -79,7 +79,7 @@ hr{display: block; width: 2rem; overflow: hidden; border-style: solid; border-wi
 @media (max-width:480px){
     .img-fish{background-image: none;}
     .p-all{display: inline-table;}
-    .p-img{height: 25rem; width: 100%; margin: 0 auto;}
+    .p-img{height: 20rem; width: 100%; margin: 0 auto;}
     .back{padding: 2rem;}
     hr{margin-top: 2.5rem;}
 }
