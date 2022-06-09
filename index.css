@@ -148,10 +148,9 @@ hr{display: block; width: 2rem; overflow: hidden; border-style: solid; border-wi
 
 /*Footer*/
 .hello{display: grid; grid-template-columns: repeat(4,1fr); margin: 2rem auto;}
-
 .color{color: brown; display: grid; margin: auto;}
 .color h1{font-family:'Mitr', sans-serif; color: brown; text-transform: uppercase;}
-.color a{font-family:'Mitr', sans-serif; font-size: 0.8rem;}
+.color a{font-family:'Mitr', sans-serif; font-size: 0.8rem; line-height: 1.5rem;}
 .color a:hover{color:rgba(255, 255, 255, 0.5);}
 .color i{color: brown; padding-right: 0.5rem;}
 
