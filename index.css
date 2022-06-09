@@ -163,6 +163,7 @@ hr{display: block; width: 2rem; overflow: hidden; border-style: solid; border-wi
 
 @media (max-width:480px){
     .contact h1{font-size: 2rem;}
+    .p-sign{border: none; padding: 1rem;}
     .p-social i{font-size: 1.5rem; padding: 1rem 0.5rem;}
 }
 
