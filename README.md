@@ -3,7 +3,7 @@
 **<p align="center">Everything you need to know about Japan</p>**
 
 [View the live project here.](https://kroutm.github.io/Japan-s-Magic/)
-<p align="center"><img src="Pictures/screenshots/FireShot Capture 088 - Am I Responsive_ - ui.dev.png"></p>
+<p align="center"><img src="Pictures/screenshots/FireShot Capture 089 - Am I Responsive_ - ui.dev.png"></p>
 
 ## User Experience (UX)
 
