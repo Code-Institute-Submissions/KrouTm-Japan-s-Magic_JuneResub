@@ -43,7 +43,12 @@ nav ul li a:hover{color: brown; padding: 0.5rem; border: solid 2px brown; font-w
 .angle a i{font-size: 5rem; transition: all .5s; z-index: 10;}
 .angle a i:hover{color: rgba(165, 42, 42, 0.5); transform:translateY(0.5rem);}
 
-
+/*Best Time To Go*/
+.best-time-to-go h1{font-size: 1.5rem; position: relative;}
+.img-time0{background-image: url(https://images.unsplash.com/photo-1522383225653-ed111181a951?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80); background-position: center;}
+.img-time1{background-image: url(https://images.unsplash.com/photo-1637230922121-8eb94eff2dd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); background-position: center;}
+.img-time2{background-image: url(https://images.unsplash.com/photo-1504209228919-8e2b979b7195?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); background-position: center;}
+.style-time{background-repeat: no-repeat; background-size: cover; width: 10rem; height: 10rem;}
 
 /*Culture*/
 .culture{justify-content: center; display: flex;}
