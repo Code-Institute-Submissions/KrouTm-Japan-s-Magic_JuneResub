@@ -186,6 +186,7 @@ nav hr{display: block; width: 100%; overflow: hidden; border-style: solid; borde
 @media (max-width:768px){
     .p-sign{width: 90%;}
     .hello{display: inline-block; margin: auto; width: 100%;}
+    .p-social i{padding: 0.5rem;}
     .color{margin: 1rem 0;}
     .color h1{text-align: center;}
     .color a{text-align: center;}
