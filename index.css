@@ -34,7 +34,7 @@ nav hr{display: block; width: 100%; overflow: hidden; border-style: solid; borde
 .circle{background-color: rgba(255, 0, 0, 0.3); border-radius: 50%; width: 10rem; height: 10rem; z-index: -1; position: absolute; top: -1rem; left: 7rem;}
 
 @media (max-width:480px){
-    .phrase-background h1{font-size: 2.5rem;}
+    .phrase-background h1{font-size: 2rem;}
     .phrase-background p{margin-top: 1rem;}
     .circle{width: 5rem; height: 7rem;}
 }
