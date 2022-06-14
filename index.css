@@ -87,11 +87,9 @@ nav hr{display: block; width: 100%; overflow: hidden; border-style: solid; borde
     .back:hover p, .back:hover{opacity: 1;}
 
 @media (max-width:480px){
-    .img-3imgs{background-image: none;}
     .p-all{display: inline-table;}
-    .p-img{height: 20rem; width: 100%; margin: 0 auto;}
-    .back{padding: 2rem;}
-    .line{margin-top: 2.5rem;}
+    .p-img{height: 15rem; width: 100%; margin: 0 auto;}
+    .img-3imgs hr{margin-top: 2.5rem;}
 }
 
 @media (min-width:481px) and (max-width:768px){
