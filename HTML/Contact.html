@@ -11,7 +11,7 @@
             @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
         </style>
     </head>
-    <body>
+    <body class="contact-back">
         <!--Navbar-->
         <nav>
             <input type="checkbox" id="check">
@@ -24,77 +24,76 @@
                 <li><a href="#">Tours</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
-            <hr class="line0">
+            <hr>
         </nav>
 
         <!--Contact-->
         <div class="contact">
-            <h1>Contact Us</h1>
-            <p>We are always willing to help and improve our conduct towards you. feel free to say hello!</p>
-            <p id="line"></p>
+            <h3>Contact Us</h3>
+            <h2 class="text-all">We are always willing to help and improve our conduct towards you. feel free to say hello!</h2>
+            <hr>
+        
+            <div class="p-sign">
+                <!--Subscribe-->
+                <h1>Stay Connected</h1>
+                <p class="text-all">Always receive our updates and news!</p>
+                <form action="Sign.html" method="GET">
+                    <input class="style-info text-all" placeholder="Email Address:" type="text">
+                    <input class="sign-up text-all" type="submit" value="Sign-Up">
+                </form>
+
+                <!--Message-->
+                <h1>Send us a message</h1>
+                <p class="text-all">Make contact and send us a feedback of what you think of our site.</p>
+                <form action="Submit.html" method="post" style="line-height: 3rem;">
+                    <input class="style-info text-all" placeholder="Name:">
+                    <input class="style-info text-all" placeholder="Email:">
+                    <textarea class="style-info text-all" rows="10" cols="20" placeholder="Message:"></textarea>
+                    <input class="submit text-all" type="submit" value="Submit">
+                </form>
+
+                <!--Social Media-->
+                <h1>I am social</h1>
+                <div class="p-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-google-plus"></i></a>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="hello">
+                <div class="color">
+                    <h1>Information</h1>
+                    <a href="#">About us</a>
+                    <a href="#">Subscribe</a>
+                    <a href="#">Members</a>
+                    <a href="#">Services</a>
+                </div>
+            
+                <div class="color">
+                    <h1>Helpful Links</h1>
+                    <a href="#">Services</a>
+                    <a href="#">Help</a>
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+
+                <div class="color">
+                    <h1>Partnership</h1>
+                    <a href="#">Websites</a>
+                    <a href="#">Social Media</a>
+                    <a href="#">Branding</a>
+                </div>
+
+                <div class="color">
+                    <a href="#"><i class="fas fa-envelope"></i> JapansMagic@mysite.com</a>
+                    <a href="#"><i class="fas fa-phone-volume"></i> Tel: (353) 0011-2233</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Address: Somewhere - Dublin - Ireland</a>
+                </div>
+            </div>
         </div>
-        
-        <section class="p-sign">
-            <!--Subscribe-->
-            <h1>Stay Connected</h1>
-            <p class="text-all">Always receive our updates and news!</p>
-            <form action="Sign.html" method="GET">
-                <input class="style-info" placeholder="Email Address:" type="text">
-                <input class="sign-up" type="submit" value="Sign-Up">
-            </form>
 
-            <!--Message-->
-            <h1>Send us a message</h1>
-            <p class="text-all">Make contact and send us a feedback of what you think of our site.</p>
-            <form action="Submit.html" method="post" style="line-height: 3rem;">
-                <input class="style-info" placeholder="Name:">
-                <input class="style-info" placeholder="Email:">
-                <textarea class="style-info" rows="10" cols="20" placeholder="Message:"></textarea>
-                <input class="submit" type="submit" value="Submit">
-            </form>
-
-            <!--Social Media-->
-            <h1>I am social</h1>
-            <div class="p-social">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-google-plus"></i></a>
-            </div>
-        </section>
-
-        <!--Footer-->
-        <section class="hello">
-            <div class="color">
-                <h1>Information</h1>
-                <a href="#">About us</a>
-                <a href="#">Subscribe</a>
-                <a href="#">Members</a>
-                <a href="#">Services</a>
-            </div>
-        
-            <div class="color">
-                <h1>Helpful Links</h1>
-                <a href="#">Services</a>
-                <a href="#">Help</a>
-                <a href="#">Terms & Condition</a>
-                <a href="#">Privacy Policy</a>
-            </div>
-
-            <div class="color">
-                <h1>Partnership</h1>
-                <a href="#">Websites</a>
-                <a href="#">Social Media</a>
-                <a href="#">Branding</a>
-            </div>
-
-            <div class="color">
-                <a href="#"><i class="fas fa-envelope"></i> JapansMagic@mysite.com</a>
-                <a href="#"><i class="fas fa-phone-volume"></i> Tel: (353) 0011-2233</a>
-                <a href="#"><i class="fas fa-map-marker-alt"></i> Address: Somewhere - Dublin - Ireland</a>
-            </div>
-        </section>
-
-        <p id="line2"></p>
     </body>
 </html>
