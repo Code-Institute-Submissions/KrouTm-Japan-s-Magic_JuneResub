@@ -12,7 +12,7 @@ nav ul li a:hover{color: brown; padding: 0.5rem; border: solid 2px brown; font-w
 .checkbtn{float: right; padding-top: 0.2rem; cursor: pointer; display: none;}
 .checkbtn i{font-size: 2.5rem; line-height: 3rem; color: brown;}
 #check {display: none;}
-.line0{display: block; width: 100%; overflow: hidden; border-style: solid; border-width: 1px; display: flex; justify-content: center; margin: 0 auto; color: rgba(255, 255, 255, 0.7);}
+nav hr{display: block; width: 100%; overflow: hidden; border-style: solid; border-width: 1px; display: flex; justify-content: center; margin: 0 auto; color: rgba(255, 255, 255, 0.7);}
 
 @media (max-width: 768px){
 	.checkbtn{display: block;}
@@ -44,11 +44,17 @@ nav ul li a:hover{color: brown; padding: 0.5rem; border: solid 2px brown; font-w
 .angle a i:hover{color: rgba(165, 42, 42, 0.5); transform:translateY(0.5rem);}
 
 /*Best Time To Go*/
-.best-time-to-go h1{font-size: 1.5rem; position: relative;}
-.img-time0{background-image: url(https://images.unsplash.com/photo-1522383225653-ed111181a951?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80); background-position: center;}
-.img-time1{background-image: url(https://images.unsplash.com/photo-1637230922121-8eb94eff2dd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); background-position: center;}
-.img-time2{background-image: url(https://images.unsplash.com/photo-1504209228919-8e2b979b7195?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); background-position: center;}
-.style-time{background-repeat: no-repeat; background-size: cover; width: 10rem; height: 10rem;}
+
+.img-time0{background-image: url(https://images.unsplash.com/photo-1558445034-bbfbdfbdde05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80); background-position: center; border-radius: 50% 0 0 0;}
+.img-time1{background-image: url(https://images.unsplash.com/photo-1558870832-c8db4b5b47d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1976&q=80); background-position: center 40%; border-radius: 0 50% 0 0;}
+.img-time2{background-image: url(https://images.unsplash.com/photo-1637230922121-8eb94eff2dd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); background-position: center; border-radius: 0 0 0 50%;}
+.img-time3{background-image: url(https://images.unsplash.com/photo-1504209228919-8e2b979b7195?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); background-position: center; border-radius: 0 0 50% 0;}
+.style-time{background-repeat: no-repeat; background-size: cover; width: 100%; height: 100%;}
+
+.best-time-to-go{display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;}
+.best-time-to-go h1{font-size: 1.5rem; position: absolute;}
+.all-imgs-time{display: grid; grid-template-columns: repeat(2,1fr); width: 50%; height: 20rem; margin: auto;}
+
 
 /*Culture*/
 .culture{justify-content: center; display: flex;}
@@ -69,7 +75,7 @@ nav ul li a:hover{color: brown; padding: 0.5rem; border: solid 2px brown; font-w
 /*Fish Background*/
 .img-fish{background:url(https://images.unsplash.com/photo-1575128628246-969ad9b90cc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) center/ cover fixed; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;}
 .p-all{width: 80%; height: 100%; text-align: center; display: grid; grid-template-columns: repeat(3,1fr);}
-.line{display: block; width: 2rem; overflow: hidden; border-style: solid; border-width: 2px; margin-top: 1.5rem; display: flex; justify-content: center; margin-left:  auto; margin-right: auto; color: brown;}
+.img-fish hr{display: block; width: 2rem; overflow: hidden; border-style: solid; border-width: 2px; margin-top: 1.5rem; display: flex; justify-content: center; margin-left:  auto; margin-right: auto; color: brown;}
 
     /*Place, Restaurants and Nightlife links*/
     .img-place{background-image:url(https://images.unsplash.com/photo-1542767673-ee5103fedbb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2080&q=80); background-position:center;}
