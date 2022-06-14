@@ -61,14 +61,10 @@ nav hr{display: block; width: 100%; overflow: hidden; border-style: solid; borde
 
 .all-imgs-time{display: grid; grid-template-columns: repeat(2,1fr); width: 60%; height: 20rem; margin: auto;}
 
-@media (max-width:1025px){
-    .best-time-to-go a{width: 50%;}
-    .all-imgs-time{width: 90%; height: 20rem;}
-}
 
-@media (min-width:768px) and (max-width:1025px){
-    .best-time-to-go a{width: 50%;}
-    .all-imgs-time{width: 80%; height: 15rem;}
+@media (max-width:768px){
+    .best-time-to-go a{width: 60%;}
+    .all-imgs-time{width: 90%; height: 20rem;}
 }
 
 /*Background 3imgs*/
