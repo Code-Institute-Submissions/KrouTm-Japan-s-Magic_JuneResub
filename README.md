@@ -3,7 +3,7 @@
 **<p align="center">Everything you need to know about Japan</p>**
 
 [View the live project here.](https://kroutm.github.io/Japan-s-Magic/)
-<p align="center"><img src="Pictures/screenshots/FireShot Capture 089 - Am I Responsive_ - ui.dev.png"></p>
+<p align="center"><img src="Pictures/screenshots/Home Page.png"></p>
 
 ## User Experience (UX)
 
@@ -69,7 +69,7 @@
 - The website is responsive on all device sizes.
 
     ### Home Page
-    <p align="center"><img src="Pictures/screenshots/FireShot Capture 088 - Am I Responsive_ - ui.dev.png"></p>
+    <p align="center"><img src="Pictures/screenshots/Home Page.png"></p>
 
     - ### Everything You Need To Know & Background Image
         <img src="Pictures/screenshots/Every.png">
