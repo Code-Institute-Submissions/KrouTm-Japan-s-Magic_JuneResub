@@ -42,7 +42,7 @@ nav hr{display: block; width: 100%; overflow: hidden; border-style: solid; borde
 @media (max-width:768px){
     .phrase-background{top: 50%; left: 0; right: 0; margin: auto; transform: translate(0, -50%); width: 100%; padding: 0 2rem;}
     .phrase-background h1, p{text-align: center; margin: auto;}
-    .circle{top: 0; left: 0; right: 0; margin: auto; width: 12rem; height: 12rem;}
+    .circle{top: 0; left: 0; right: 0; margin: auto;}
 }
 
 @media (min-width:481px) and (max-width:768px){
