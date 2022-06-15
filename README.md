@@ -134,7 +134,7 @@
     <img src="Pictures/screenshots/Footer.png">
     <img width="300px" height="auto" src="Pictures/screenshots/Footer0.png">
 
-    - dsj l djajs d kasjdlka j  lakjsd  lakjds
+    - Contains the important information you need, such as contact information and help links.
 
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
