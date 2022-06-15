@@ -79,7 +79,7 @@
 
     - ### Place, Restaurants & Nightlife
         <img src="Pictures/screenshots/3 imgs.png">
-        <img src="Pictures/screenshots/3 imgshover.png">
+        <img src="Pictures/screenshots/3 imgshover.PNG">
         <img width="300px" height="auto" src="Pictures/screenshots/3 imgs0.png">
         <img width="300px" height="auto" src="Pictures/screenshots/3 imgs0hover.PNG">
 
