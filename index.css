@@ -1,4 +1,5 @@
 body{background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-tong-025-eye-01_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a00d6c0f4d514aeb5fe93b069730c3); background-attachment: fixed;}
+html{scroll-behavior: smooth;}
 
 *{padding: 0; margin: 0; text-decoration: none; box-sizing: border-box; font-weight: 100; font-size: xx-large; font-family: 'Cinzel Decorative', cursive; color: white;}
 .text-all{font-family: 'Quicksand', sans-serif; font-size: 0.6rem;}
