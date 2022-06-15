@@ -79,7 +79,6 @@
 
     - ### Place, Restaurants & Nightlife
         <img src="Pictures/screenshots/3 imgs.png">
-        <img src="Pictures/screenshots/3 imgshover.PNG">
         <img width="300px" height="auto" src="Pictures/screenshots/3 imgs0.png">
 
         - This is the part where the user looks for information about his trip to Japan, to provide information on restaurants, bars, and tourist attractions.
