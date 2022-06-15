@@ -81,7 +81,7 @@
         <img src="Pictures/screenshots/3 imgs.png">
         <img width="300px" height="auto" src="Pictures/screenshots/3 imgs0.png">
 
-        - This is the part where the user looks for information about his trip to Japan, to provide information on restaurants, bars, and tourist attractions.
+        - This is the part where the user looks for information about the trip to Japan, to provide information on restaurants, bars, and tourist attractions.
         - When used on cell phones or tablets with 320px - 768px resolution, the images of Place, Restaurant, and Night Life is placed on top of each other, so the image and description are not too small to spoil the user experience in receiving the information.
         - The descriptions of the images appear only when the mouse is hovered over the images, so the user can feel the interaction with the site.
 
@@ -98,7 +98,6 @@
         <img width="300px" height="auto" src="Pictures/screenshots/Time0.png">
 
         - As the name says, in this part of the site the user must access the link and understand that each time of year has an advantage and will be guided to the available options of the time.
-        - There's not much hype here, just three different stations splitting the space evenly on the screen for a prettier look, couldn't think of a better way to represent that.
 
     - ### About
         <img src="Pictures/screenshots/About.png">
@@ -119,9 +118,8 @@
         <img src="Pictures/screenshots/Sign.png">
         <img width="300px" height="auto" src="Pictures/screenshots/Sign0.png">
 
-        - I wanted to put an inviting phrase that brings confidence to the user while expressing what the site is about, a site where people can get information about the place.
-        - The entrance to the site is simple, delicate and all the elements in the navbar or phrases that needed to be placed are simple and transparent so as not to distract from the beauty that the image of the place brings.
-        - The intention was for the user not to feel lost or frustrated with many elements on the screen.
+        - On this page, the user will be able to subscribe and receive news and promotions from the website in their email.
+        - Please also send a message and comment what you think of your experience with our website.
 
     ## Navbar
     <img src="Pictures/screenshots/Navbar.png">
@@ -141,3 +139,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [Markup Validation Service](https://validator.w3.org/)
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+## Bugs
+
+1. Only the Home page, Contact page, About session links are working, the Tour page, Footer and social media links do not exist.
+2. The contact page is not working, it is not possible to sign or send a message.
+3. The pages of Best Time To Go, restaurants, places, nightlife, culture... also don't exist, there are no studies to make a complete website with the information it promises. This site is just a project and what was required was accomplished with the maximum of efforts.
