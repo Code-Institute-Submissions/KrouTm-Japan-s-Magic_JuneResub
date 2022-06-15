@@ -140,7 +140,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [Markup Validation Service](https://validator.w3.org/)
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
-## Bugs
+## Notice
 
 1. Only the Home page, Contact page, About session links are working, the Tour page, Footer and social media links do not exist.
 2. The contact page is not working, it is not possible to sign or send a message.
