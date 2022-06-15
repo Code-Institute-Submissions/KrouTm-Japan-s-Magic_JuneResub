@@ -73,13 +73,13 @@
 
     - ### Everything You Need To Know & Background Image
         <img src="Pictures/screenshots/Every.png">
-        <img width="200px" height="auto" src="Pictures/screenshots/Every0.png">
+        <img width="300px" height="auto" src="Pictures/screenshots/Every0.png">
 
         - I wanted to put an inviting phrase that brings confidence to the user while expressing what the site is about, a site where people can get information about the place.
 
     - ### Place, Restaurants & Nightlife
         <img src="Pictures/screenshots/3 imgs.png">
-        <img width="200px" height="auto" src="Pictures/screenshots/3 imgs0.png">
+        <img width="300px" height="auto" src="Pictures/screenshots/3 imgs0.png">
 
         - This is the part where the user looks for information about his trip to Japan, to provide information on restaurants, bars, and tourist attractions.
         - When used on cell phones or tablets with 320px - 768px resolution, the images of Place, Restaurant, and Night Life is placed on top of each other, so the image and description are not too small to spoil the user experience in receiving the information.
@@ -87,7 +87,7 @@
 
     - ### Culture
         <img src="Pictures/screenshots/Culture.png">
-        <img width="200px" height="auto" src="Pictures/screenshots/Culture0.png">
+        <img width="300px" height="auto" src="Pictures/screenshots/Culture0.png">
 
         - In this part of the site, I describe a little about the essence of Japanese culture and the user can also have more information when clicking on the link.
         - When the user's screen is smaller than 768px, the appearance in this part changes a little, the image before that was on the side of the description, becomes behind because there is no space to put it to the side, leaving the look strange and uncomfortable for the read.
@@ -95,14 +95,14 @@
 
     - ### Best Time To Go
         <img src="Pictures/screenshots/Time.png">
-        <img width="200px" height="auto" src="Pictures/screenshots/Time0.png">
+        <img width="300px" height="auto" src="Pictures/screenshots/Time0.png">
 
         - As the name says, in this part of the site the user must access the link and understand that each time of year has an advantage and will be guided to the available options of the time.
         - There's not much hype here, just three different stations splitting the space evenly on the screen for a prettier look, couldn't think of a better way to represent that.
 
     - ### About
         <img src="Pictures/screenshots/About.png">
-        <img width="200px" height="auto" src="Pictures/screenshots/About0.png">
+        <img width="300px" height="auto" src="Pictures/screenshots/About0.png">
 
         - The about section is a brief description of what the website is currently offering to the user.
         - It is possible to see the text when the user hover over it.
@@ -110,14 +110,14 @@
         - To make this more readable on cell phones or tablets, I removed the margin of the .card so that it could take up more space on the screen.
 
     ### Contact Page
-    <p align="center"><img src="Pictures/screenshots/FireShot Capture 088 - Am I Responsive_ - ui.dev.png"></p>
+    <p align="center"><img src="Pictures/screenshots/Contact Page.png"></p>
 
     - The user needs to acquire confidence, so in this part, I left a beautiful natural image of Japan, when the mouse hovers over the phrase "Who are us?", the user can read the description of us and what we are willing to offer.
     - To make this more readable on cell phones or tablets, I removed the margin of the .card so that it could take up more space on the screen.
 
     - ### Sign up & Send a Message
-        <img src="Pictures/">
-        <img width="200px" height="auto" src="Pictures/">
+        <img src="Pictures/screenshots/Sign.png">
+        <img width="300px" height="auto" src="Pictures/screenshots/Sign0.png">
 
         - I wanted to put an inviting phrase that brings confidence to the user while expressing what the site is about, a site where people can get information about the place.
         - The entrance to the site is simple, delicate and all the elements in the navbar or phrases that needed to be placed are simple and transparent so as not to distract from the beauty that the image of the place brings.
@@ -125,19 +125,14 @@
 
     ## Navbar
     <img src="Pictures/screenshots/Navbar.png">
-    <img width="200px" height="auto" src="Pictures/screenshots/Navbar0.png">
+    <img width="300px" height="auto" src="Pictures/screenshots/Navbar0.png">
     
     - The navbar is fixed at the top so that the user always has access to it even at the bottom of the page, so the user doesn't need to go back to the top of the page to access another page available in the navbar.
     - Simple and fully responsive.
 
-    ## Logo
-    <img width="120px" height="auto" src="Pictures/Logo.PNG">
-    
-    - I downloaded the logo from this link [Website Logo](https://www.pngegg.com/en/png-zezom).
-
     ## Footer
-    <img src="Pictures/">
-    <img width="200px" height="auto" src="Pictures/">
+    <img src="Pictures/screenshots/Footer.png">
+    <img width="300px" height="auto" src="Pictures/screenshots/Footer0.png">
 
     - dsj l djajs d kasjdlka j  lakjsd  lakjds
 
