@@ -36,7 +36,7 @@ nav hr{display: block; width: 100%; overflow: hidden; border-style: solid; borde
 @media (max-width:480px){
     .phrase-background h1{font-size: 2rem;}
     .phrase-background p{margin-top: 1rem;}
-    .circle{width: 5rem; height: 5rem;}
+    .circle{width: 9rem; height: 9rem;}
 }
 
 @media (max-width:768px){
