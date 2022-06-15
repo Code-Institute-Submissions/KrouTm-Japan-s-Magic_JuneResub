@@ -79,7 +79,9 @@
 
     - ### Place, Restaurants & Nightlife
         <img src="Pictures/screenshots/3 imgs.png">
+        <img src="Pictures/screenshots/3 imgshover.png">
         <img width="300px" height="auto" src="Pictures/screenshots/3 imgs0.png">
+        <img width="300px" height="auto" src="Pictures/screenshots/3 imgs0hover.png">
 
         - This is the part where the user looks for information about his trip to Japan, to provide information on restaurants, bars, and tourist attractions.
         - When used on cell phones or tablets with 320px - 768px resolution, the images of Place, Restaurant, and Night Life is placed on top of each other, so the image and description are not too small to spoil the user experience in receiving the information.
