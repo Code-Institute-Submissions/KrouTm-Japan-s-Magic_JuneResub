@@ -138,7 +138,10 @@
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [Markup Validation Service](https://validator.w3.org/)
+<img width="300px" height="auto" src="Pictures/screenshots/Tester.png">
+
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+<img width="300px" height="auto" src="Pictures/screenshots/Tester0.png">
 
 ## Notice
 
